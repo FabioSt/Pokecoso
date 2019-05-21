@@ -9,15 +9,16 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    
     @IBOutlet weak var bigImageView: UIImageView!
     @IBOutlet weak var nameDetail: UILabel!
-    var bigImagesList = [BigImages]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        bigImageView.image = UIImage(named: "1b")
+        nameDetail.text = title
+        bigImageView.image = UIImage(named: "\(nameDetail.text ?? "loremipsum")")
     }
     
     /*

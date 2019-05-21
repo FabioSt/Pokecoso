@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         self.filtraContenuti(testoCercato: searchController.searchBar.text!, scope: "Tutti")

@@ -13,6 +13,3 @@ struct Pokemon {
     let categoria : [String]
 }
 
-struct BigImages {
-    let bigImage : String
-}
