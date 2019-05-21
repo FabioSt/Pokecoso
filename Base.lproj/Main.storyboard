@@ -68,7 +68,6 @@
         <!--Detail View Controller-->
         <scene sceneID="B4l-aQ-cqE">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3iH-kJ-kP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="D6J-eN-BOr" customClass="DetailViewController" customModule="Pokecoso3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQR-tv-jrk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -86,6 +85,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WR-in-AL2">
+                                <rect key="frame" x="297" y="533" width="72" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SUONO">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSound:" destination="D6J-eN-BOr" eventType="touchUpInside" id="iqr-gr-aut"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -105,6 +114,7 @@
                         <outlet property="nameDetail" destination="tcw-SC-Ihi" id="dMF-zq-5Nh"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3iH-kJ-kP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1321.7391304347827" y="107.8125"/>
         </scene>

@@ -14,6 +14,158 @@
 		1D12F6AB2292F40D00060D75 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12F6AA2292F40D00060D75 /* ListaTableViewController.swift */; };
 		1D12F6AD229301A100060D75 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12F6AC229301A100060D75 /* Pokemon.swift */; };
 		1D12F6AF229375BC00060D75 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12F6AE229375BC00060D75 /* DetailViewController.swift */; };
+		1D12F7482294B71500060D75 /* Beedrill.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B12294B6EA00060D75 /* Beedrill.wav */; };
+		1D12F7492294B71500060D75 /* Magmar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B22294B6EB00060D75 /* Magmar.wav */; };
+		1D12F74A2294B71500060D75 /* Hitmonchan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B32294B6EB00060D75 /* Hitmonchan.wav */; };
+		1D12F74B2294B71500060D75 /* Golem.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B42294B6EB00060D75 /* Golem.wav */; };
+		1D12F74C2294B71500060D75 /* NidoranM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B52294B6EB00060D75 /* NidoranM.wav */; };
+		1D12F74D2294B71500060D75 /* Lickitung.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B62294B6EB00060D75 /* Lickitung.wav */; };
+		1D12F74E2294B71500060D75 /* Ekans.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B72294B6EB00060D75 /* Ekans.wav */; };
+		1D12F74F2294B71500060D75 /* Vulpix.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B82294B6EB00060D75 /* Vulpix.wav */; };
+		1D12F7502294B71500060D75 /* Golbat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6B92294B6EC00060D75 /* Golbat.wav */; };
+		1D12F7512294B71500060D75 /* Venusaur.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6BA2294B6EC00060D75 /* Venusaur.wav */; };
+		1D12F7522294B71500060D75 /* Cubone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6BB2294B6EC00060D75 /* Cubone.wav */; };
+		1D12F7532294B71500060D75 /* Exeggutor.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6BC2294B6EC00060D75 /* Exeggutor.wav */; };
+		1D12F7542294B71500060D75 /* Nidorino.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6BD2294B6EC00060D75 /* Nidorino.wav */; };
+		1D12F7552294B71500060D75 /* Charmeleon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6BE2294B6EC00060D75 /* Charmeleon.wav */; };
+		1D12F7562294B71500060D75 /* Electrode.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6BF2294B6ED00060D75 /* Electrode.wav */; };
+		1D12F7572294B71500060D75 /* Moltres.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C02294B6ED00060D75 /* Moltres.wav */; };
+		1D12F7582294B71500060D75 /* Kadabra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C12294B6ED00060D75 /* Kadabra.wav */; };
+		1D12F7592294B71500060D75 /* Jigglypuff.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C22294B6ED00060D75 /* Jigglypuff.wav */; };
+		1D12F75A2294B71500060D75 /* Ivysaur.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C32294B6ED00060D75 /* Ivysaur.wav */; };
+		1D12F75B2294B71500060D75 /* Shellder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C42294B6ED00060D75 /* Shellder.wav */; };
+		1D12F75C2294B71500060D75 /* Dugtrio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C52294B6EE00060D75 /* Dugtrio.wav */; };
+		1D12F75D2294B71500060D75 /* Seel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C62294B6EE00060D75 /* Seel.wav */; };
+		1D12F75E2294B71500060D75 /* Gastly.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C72294B6EE00060D75 /* Gastly.wav */; };
+		1D12F75F2294B71500060D75 /* Alakazam.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C82294B6EE00060D75 /* Alakazam.wav */; };
+		1D12F7602294B71500060D75 /* Doduo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6C92294B6EE00060D75 /* Doduo.wav */; };
+		1D12F7612294B71500060D75 /* Onix.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6CA2294B6EE00060D75 /* Onix.wav */; };
+		1D12F7622294B71500060D75 /* Exeggcute.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6CB2294B6EF00060D75 /* Exeggcute.wav */; };
+		1D12F7632294B71500060D75 /* Weepinbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6CC2294B6EF00060D75 /* Weepinbell.wav */; };
+		1D12F7642294B71500060D75 /* Wartortle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6CD2294B6EF00060D75 /* Wartortle.wav */; };
+		1D12F7652294B71500060D75 /* Rhydon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6CE2294B6EF00060D75 /* Rhydon.wav */; };
+		1D12F7662294B71500060D75 /* Blastoise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6CF2294B6EF00060D75 /* Blastoise.wav */; };
+		1D12F7672294B71500060D75 /* Starmie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D02294B6F000060D75 /* Starmie.wav */; };
+		1D12F7682294B71500060D75 /* Jolteon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D12294B6F000060D75 /* Jolteon.wav */; };
+		1D12F7692294B71500060D75 /* Clefable.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D22294B6F000060D75 /* Clefable.wav */; };
+		1D12F76A2294B71500060D75 /* Dodrio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D32294B6F000060D75 /* Dodrio.wav */; };
+		1D12F76B2294B71500060D75 /* Scyther.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D42294B6F000060D75 /* Scyther.wav */; };
+		1D12F76C2294B71500060D75 /* Eevee.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D52294B6F100060D75 /* Eevee.wav */; };
+		1D12F76D2294B71500060D75 /* Machoke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D62294B6F100060D75 /* Machoke.wav */; };
+		1D12F76E2294B71500060D75 /* Caterpie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D72294B6F100060D75 /* Caterpie.wav */; };
+		1D12F76F2294B71500060D75 /* Tangela.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D82294B6F100060D75 /* Tangela.wav */; };
+		1D12F7702294B71500060D75 /* Mankey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6D92294B6F100060D75 /* Mankey.wav */; };
+		1D12F7712294B71500060D75 /* Mew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6DA2294B6F200060D75 /* Mew.wav */; };
+		1D12F7722294B71500060D75 /* Vaporeon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6DB2294B6F200060D75 /* Vaporeon.wav */; };
+		1D12F7732294B71500060D75 /* Zubat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6DC2294B6F200060D75 /* Zubat.wav */; };
+		1D12F7742294B71500060D75 /* Jynx.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6DD2294B6F200060D75 /* Jynx.wav */; };
+		1D12F7752294B71500060D75 /* Tentacruel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6DE2294B6F200060D75 /* Tentacruel.wav */; };
+		1D12F7762294B71500060D75 /* Pikachu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6DF2294B6F300060D75 /* Pikachu.wav */; };
+		1D12F7772294B71500060D75 /* Gengar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E02294B6F300060D75 /* Gengar.wav */; };
+		1D12F7782294B71500060D75 /* Magnemite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E12294B6F400060D75 /* Magnemite.wav */; };
+		1D12F7792294B71500060D75 /* Pidgeot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E22294B6F400060D75 /* Pidgeot.wav */; };
+		1D12F77A2294B71500060D75 /* Slowpoke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E32294B6F500060D75 /* Slowpoke.wav */; };
+		1D12F77B2294B71500060D75 /* Omastar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E42294B6F500060D75 /* Omastar.wav */; };
+		1D12F77C2294B71500060D75 /* Mewtwo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E52294B6F600060D75 /* Mewtwo.wav */; };
+		1D12F77D2294B71500060D75 /* Kakuna.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E62294B6F600060D75 /* Kakuna.wav */; };
+		1D12F77E2294B71500060D75 /* NidoranF.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E72294B6F600060D75 /* NidoranF.wav */; };
+		1D12F77F2294B71500060D75 /* Rapidash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E82294B6F600060D75 /* Rapidash.wav */; };
+		1D12F7802294B71500060D75 /* Grimer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6E92294B6F700060D75 /* Grimer.wav */; };
+		1D12F7812294B71500060D75 /* Clefairy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6EA2294B6F700060D75 /* Clefairy.wav */; };
+		1D12F7822294B71500060D75 /* Koffing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6EB2294B6F700060D75 /* Koffing.wav */; };
+		1D12F7832294B71500060D75 /* Ninetales.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6EC2294B6F700060D75 /* Ninetales.wav */; };
+		1D12F7842294B71500060D75 /* Drowzee.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6ED2294B6F800060D75 /* Drowzee.wav */; };
+		1D12F7852294B71500060D75 /* Persian.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6EE2294B6F800060D75 /* Persian.wav */; };
+		1D12F7862294B71500060D75 /* Kingler.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6EF2294B6F800060D75 /* Kingler.wav */; };
+		1D12F7872294B71500060D75 /* Diglett.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F02294B6F900060D75 /* Diglett.wav */; };
+		1D12F7882294B71500060D75 /* Staryu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F12294B6F900060D75 /* Staryu.wav */; };
+		1D12F7892294B71500060D75 /* Poliwhirl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F22294B6F900060D75 /* Poliwhirl.wav */; };
+		1D12F78A2294B71500060D75 /* Slowbro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F32294B6F900060D75 /* Slowbro.wav */; };
+		1D12F78B2294B71500060D75 /* Dragonair.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F42294B6FA00060D75 /* Dragonair.wav */; };
+		1D12F78C2294B71500060D75 /* Kangaskhan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F52294B6FA00060D75 /* Kangaskhan.wav */; };
+		1D12F78D2294B71500060D75 /* Marowak.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F62294B6FB00060D75 /* Marowak.wav */; };
+		1D12F78E2294B71500060D75 /* Geodude.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F72294B6FB00060D75 /* Geodude.wav */; };
+		1D12F78F2294B71500060D75 /* Nidorina.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F82294B6FC00060D75 /* Nidorina.wav */; };
+		1D12F7902294B71500060D75 /* Ponyta.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6F92294B6FC00060D75 /* Ponyta.wav */; };
+		1D12F7912294B71500060D75 /* Gloom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6FA2294B6FD00060D75 /* Gloom.wav */; };
+		1D12F7922294B71500060D75 /* Paras.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6FB2294B6FD00060D75 /* Paras.wav */; };
+		1D12F7932294B71500060D75 /* Arcanine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6FC2294B6FD00060D75 /* Arcanine.wav */; };
+		1D12F7942294B71500060D75 /* Pidgeotto.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6FD2294B6FE00060D75 /* Pidgeotto.wav */; };
+		1D12F7952294B71500060D75 /* Meowth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6FE2294B6FE00060D75 /* Meowth.wav */; };
+		1D12F7962294B71500060D75 /* Weedle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F6FF2294B6FE00060D75 /* Weedle.wav */; };
+		1D12F7972294B71500060D75 /* Abra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7002294B6FE00060D75 /* Abra.wav */; };
+		1D12F7982294B71500060D75 /* Tauros.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7012294B6FF00060D75 /* Tauros.wav */; };
+		1D12F7992294B71500060D75 /* Dratini.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7022294B6FF00060D75 /* Dratini.wav */; };
+		1D12F79A2294B71500060D75 /* Nidoking.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7032294B6FF00060D75 /* Nidoking.wav */; };
+		1D12F79B2294B71500060D75 /* Psyduck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7042294B70000060D75 /* Psyduck.wav */; };
+		1D12F79C2294B71500060D75 /* Parasect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7052294B70000060D75 /* Parasect.wav */; };
+		1D12F79D2294B71500060D75 /* Seaking.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7062294B70000060D75 /* Seaking.wav */; };
+		1D12F79E2294B71500060D75 /* Krabby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7072294B70100060D75 /* Krabby.wav */; };
+		1D12F79F2294B71500060D75 /* Graveler.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7082294B70100060D75 /* Graveler.wav */; };
+		1D12F7A02294B71500060D75 /* Haunter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7092294B70100060D75 /* Haunter.wav */; };
+		1D12F7A12294B71500060D75 /* Bulbasaur.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F70A2294B70100060D75 /* Bulbasaur.wav */; };
+		1D12F7A22294B71500060D75 /* Nidoqueen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F70B2294B70200060D75 /* Nidoqueen.wav */; };
+		1D12F7A32294B71500060D75 /* Primeape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F70C2294B70200060D75 /* Primeape.wav */; };
+		1D12F7A42294B71500060D75 /* Hitmonlee.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F70D2294B70200060D75 /* Hitmonlee.wav */; };
+		1D12F7A52294B71500060D75 /* Victreebel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F70E2294B70200060D75 /* Victreebel.wav */; };
+		1D12F7A62294B71500060D75 /* Farfetch'd.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F70F2294B70200060D75 /* Farfetch'd.wav */; };
+		1D12F7A72294B71500060D75 /* Machamp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7102294B70300060D75 /* Machamp.wav */; };
+		1D12F7A82294B71500060D75 /* Charizard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7112294B70300060D75 /* Charizard.wav */; };
+		1D12F7A92294B71500060D75 /* Kabutops.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7122294B70300060D75 /* Kabutops.wav */; };
+		1D12F7AA2294B71500060D75 /* Zapdos.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7132294B70400060D75 /* Zapdos.wav */; };
+		1D12F7AB2294B71500060D75 /* Seadra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7142294B70400060D75 /* Seadra.wav */; };
+		1D12F7AC2294B71500060D75 /* Ditto.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7152294B70400060D75 /* Ditto.wav */; };
+		1D12F7AD2294B71500060D75 /* Electabuzz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7162294B70500060D75 /* Electabuzz.wav */; };
+		1D12F7AE2294B71500060D75 /* Charmander.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7172294B70500060D75 /* Charmander.wav */; };
+		1D12F7AF2294B71500060D75 /* Chansey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7182294B70600060D75 /* Chansey.wav */; };
+		1D12F7B02294B71500060D75 /* Bellsprout.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7192294B70600060D75 /* Bellsprout.wav */; };
+		1D12F7B12294B71500060D75 /* Rattata.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F71A2294B70600060D75 /* Rattata.wav */; };
+		1D12F7B22294B71500060D75 /* Omanyte.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F71B2294B70700060D75 /* Omanyte.wav */; };
+		1D12F7B32294B71500060D75 /* Venomoth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F71C2294B70700060D75 /* Venomoth.wav */; };
+		1D12F7B42294B71500060D75 /* Dewgong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F71D2294B70700060D75 /* Dewgong.wav */; };
+		1D12F7B52294B71500060D75 /* Magikarp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F71E2294B70700060D75 /* Magikarp.wav */; };
+		1D12F7B62294B71500060D75 /* Pinsir.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F71F2294B70800060D75 /* Pinsir.wav */; };
+		1D12F7B72294B71500060D75 /* Vileplume.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7202294B70800060D75 /* Vileplume.wav */; };
+		1D12F7B82294B71500060D75 /* Oddish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7212294B70800060D75 /* Oddish.wav */; };
+		1D12F7B92294B71500060D75 /* Sandslash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7222294B70900060D75 /* Sandslash.wav */; };
+		1D12F7BA2294B71500060D75 /* Magneton.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7232294B70900060D75 /* Magneton.wav */; };
+		1D12F7BB2294B71500060D75 /* Wigglytuff.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7242294B70900060D75 /* Wigglytuff.wav */; };
+		1D12F7BC2294B71500060D75 /* Dragonite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7252294B70A00060D75 /* Dragonite.wav */; };
+		1D12F7BD2294B71500060D75 /* Poliwag.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7262294B70A00060D75 /* Poliwag.wav */; };
+		1D12F7BE2294B71500060D75 /* Hypno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7272294B70A00060D75 /* Hypno.wav */; };
+		1D12F7BF2294B71500060D75 /* Pidgey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7282294B70B00060D75 /* Pidgey.wav */; };
+		1D12F7C02294B71500060D75 /* Spearow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7292294B70B00060D75 /* Spearow.wav */; };
+		1D12F7C12294B71500060D75 /* Machop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F72A2294B70B00060D75 /* Machop.wav */; };
+		1D12F7C22294B71500060D75 /* Raticate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F72B2294B70B00060D75 /* Raticate.wav */; };
+		1D12F7C32294B71500060D75 /* Lapras.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F72C2294B70C00060D75 /* Lapras.wav */; };
+		1D12F7C42294B71500060D75 /* Articuno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F72D2294B70C00060D75 /* Articuno.wav */; };
+		1D12F7C52294B71500060D75 /* Snorlax.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F72E2294B70C00060D75 /* Snorlax.wav */; };
+		1D12F7C62294B71500060D75 /* Horsea.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F72F2294B70D00060D75 /* Horsea.wav */; };
+		1D12F7C72294B71500060D75 /* Raichu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7302294B70D00060D75 /* Raichu.wav */; };
+		1D12F7C82294B71500060D75 /* Metapod.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7312294B70D00060D75 /* Metapod.wav */; };
+		1D12F7C92294B71500060D75 /* Mr.Mime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7322294B70E00060D75 /* Mr.Mime.wav */; };
+		1D12F7CA2294B71500060D75 /* Voltorb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7332294B70E00060D75 /* Voltorb.wav */; };
+		1D12F7CB2294B71500060D75 /* Butterfree.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7342294B70E00060D75 /* Butterfree.wav */; };
+		1D12F7CC2294B71500060D75 /* Venonat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7352294B70F00060D75 /* Venonat.wav */; };
+		1D12F7CD2294B71500060D75 /* Aerodactyl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7362294B70F00060D75 /* Aerodactyl.wav */; };
+		1D12F7CE2294B71500060D75 /* Golduck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7372294B70F00060D75 /* Golduck.wav */; };
+		1D12F7CF2294B71500060D75 /* Arbok.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7382294B71000060D75 /* Arbok.wav */; };
+		1D12F7D02294B71500060D75 /* Squirtle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7392294B71000060D75 /* Squirtle.wav */; };
+		1D12F7D12294B71500060D75 /* Goldeen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F73A2294B71000060D75 /* Goldeen.wav */; };
+		1D12F7D22294B71500060D75 /* Poliwrath.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F73B2294B71100060D75 /* Poliwrath.wav */; };
+		1D12F7D32294B71500060D75 /* Muk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F73C2294B71100060D75 /* Muk.wav */; };
+		1D12F7D42294B71500060D75 /* Cloyster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F73D2294B71100060D75 /* Cloyster.wav */; };
+		1D12F7D52294B71500060D75 /* Growlithe.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F73E2294B71200060D75 /* Growlithe.wav */; };
+		1D12F7D62294B71500060D75 /* Fearow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F73F2294B71200060D75 /* Fearow.wav */; };
+		1D12F7D72294B71500060D75 /* Kabuto.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7402294B71200060D75 /* Kabuto.wav */; };
+		1D12F7D82294B71500060D75 /* Porygon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7412294B71200060D75 /* Porygon.wav */; };
+		1D12F7D92294B71500060D75 /* Rhyhorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7422294B71300060D75 /* Rhyhorn.wav */; };
+		1D12F7DA2294B71500060D75 /* Sandshrew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7432294B71300060D75 /* Sandshrew.wav */; };
+		1D12F7DB2294B71500060D75 /* Tentacool.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7442294B71400060D75 /* Tentacool.wav */; };
+		1D12F7DC2294B71500060D75 /* Gyarados.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7452294B71400060D75 /* Gyarados.wav */; };
+		1D12F7DD2294B71500060D75 /* Weezing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7462294B71500060D75 /* Weezing.wav */; };
+		1D12F7DE2294B71500060D75 /* Flareon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7472294B71500060D75 /* Flareon.wav */; };
+		1D3DFBCF2294B99D000C2C49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBCE2294B99D000C2C49 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +178,158 @@
 		1D12F6AA2292F40D00060D75 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
 		1D12F6AC229301A100060D75 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		1D12F6AE229375BC00060D75 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1D12F6B12294B6EA00060D75 /* Beedrill.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beedrill.wav; sourceTree = "<group>"; };
+		1D12F6B22294B6EB00060D75 /* Magmar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Magmar.wav; sourceTree = "<group>"; };
+		1D12F6B32294B6EB00060D75 /* Hitmonchan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hitmonchan.wav; sourceTree = "<group>"; };
+		1D12F6B42294B6EB00060D75 /* Golem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Golem.wav; sourceTree = "<group>"; };
+		1D12F6B52294B6EB00060D75 /* NidoranM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NidoranM.wav; sourceTree = "<group>"; };
+		1D12F6B62294B6EB00060D75 /* Lickitung.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lickitung.wav; sourceTree = "<group>"; };
+		1D12F6B72294B6EB00060D75 /* Ekans.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ekans.wav; sourceTree = "<group>"; };
+		1D12F6B82294B6EB00060D75 /* Vulpix.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Vulpix.wav; sourceTree = "<group>"; };
+		1D12F6B92294B6EC00060D75 /* Golbat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Golbat.wav; sourceTree = "<group>"; };
+		1D12F6BA2294B6EC00060D75 /* Venusaur.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Venusaur.wav; sourceTree = "<group>"; };
+		1D12F6BB2294B6EC00060D75 /* Cubone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cubone.wav; sourceTree = "<group>"; };
+		1D12F6BC2294B6EC00060D75 /* Exeggutor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Exeggutor.wav; sourceTree = "<group>"; };
+		1D12F6BD2294B6EC00060D75 /* Nidorino.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nidorino.wav; sourceTree = "<group>"; };
+		1D12F6BE2294B6EC00060D75 /* Charmeleon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Charmeleon.wav; sourceTree = "<group>"; };
+		1D12F6BF2294B6ED00060D75 /* Electrode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Electrode.wav; sourceTree = "<group>"; };
+		1D12F6C02294B6ED00060D75 /* Moltres.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Moltres.wav; sourceTree = "<group>"; };
+		1D12F6C12294B6ED00060D75 /* Kadabra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kadabra.wav; sourceTree = "<group>"; };
+		1D12F6C22294B6ED00060D75 /* Jigglypuff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jigglypuff.wav; sourceTree = "<group>"; };
+		1D12F6C32294B6ED00060D75 /* Ivysaur.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ivysaur.wav; sourceTree = "<group>"; };
+		1D12F6C42294B6ED00060D75 /* Shellder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Shellder.wav; sourceTree = "<group>"; };
+		1D12F6C52294B6EE00060D75 /* Dugtrio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dugtrio.wav; sourceTree = "<group>"; };
+		1D12F6C62294B6EE00060D75 /* Seel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Seel.wav; sourceTree = "<group>"; };
+		1D12F6C72294B6EE00060D75 /* Gastly.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gastly.wav; sourceTree = "<group>"; };
+		1D12F6C82294B6EE00060D75 /* Alakazam.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Alakazam.wav; sourceTree = "<group>"; };
+		1D12F6C92294B6EE00060D75 /* Doduo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Doduo.wav; sourceTree = "<group>"; };
+		1D12F6CA2294B6EE00060D75 /* Onix.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Onix.wav; sourceTree = "<group>"; };
+		1D12F6CB2294B6EF00060D75 /* Exeggcute.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Exeggcute.wav; sourceTree = "<group>"; };
+		1D12F6CC2294B6EF00060D75 /* Weepinbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Weepinbell.wav; sourceTree = "<group>"; };
+		1D12F6CD2294B6EF00060D75 /* Wartortle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wartortle.wav; sourceTree = "<group>"; };
+		1D12F6CE2294B6EF00060D75 /* Rhydon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rhydon.wav; sourceTree = "<group>"; };
+		1D12F6CF2294B6EF00060D75 /* Blastoise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Blastoise.wav; sourceTree = "<group>"; };
+		1D12F6D02294B6F000060D75 /* Starmie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Starmie.wav; sourceTree = "<group>"; };
+		1D12F6D12294B6F000060D75 /* Jolteon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jolteon.wav; sourceTree = "<group>"; };
+		1D12F6D22294B6F000060D75 /* Clefable.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clefable.wav; sourceTree = "<group>"; };
+		1D12F6D32294B6F000060D75 /* Dodrio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dodrio.wav; sourceTree = "<group>"; };
+		1D12F6D42294B6F000060D75 /* Scyther.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scyther.wav; sourceTree = "<group>"; };
+		1D12F6D52294B6F100060D75 /* Eevee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Eevee.wav; sourceTree = "<group>"; };
+		1D12F6D62294B6F100060D75 /* Machoke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Machoke.wav; sourceTree = "<group>"; };
+		1D12F6D72294B6F100060D75 /* Caterpie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Caterpie.wav; sourceTree = "<group>"; };
+		1D12F6D82294B6F100060D75 /* Tangela.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tangela.wav; sourceTree = "<group>"; };
+		1D12F6D92294B6F100060D75 /* Mankey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mankey.wav; sourceTree = "<group>"; };
+		1D12F6DA2294B6F200060D75 /* Mew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mew.wav; sourceTree = "<group>"; };
+		1D12F6DB2294B6F200060D75 /* Vaporeon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Vaporeon.wav; sourceTree = "<group>"; };
+		1D12F6DC2294B6F200060D75 /* Zubat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zubat.wav; sourceTree = "<group>"; };
+		1D12F6DD2294B6F200060D75 /* Jynx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jynx.wav; sourceTree = "<group>"; };
+		1D12F6DE2294B6F200060D75 /* Tentacruel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tentacruel.wav; sourceTree = "<group>"; };
+		1D12F6DF2294B6F300060D75 /* Pikachu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pikachu.wav; sourceTree = "<group>"; };
+		1D12F6E02294B6F300060D75 /* Gengar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gengar.wav; sourceTree = "<group>"; };
+		1D12F6E12294B6F400060D75 /* Magnemite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Magnemite.wav; sourceTree = "<group>"; };
+		1D12F6E22294B6F400060D75 /* Pidgeot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pidgeot.wav; sourceTree = "<group>"; };
+		1D12F6E32294B6F500060D75 /* Slowpoke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Slowpoke.wav; sourceTree = "<group>"; };
+		1D12F6E42294B6F500060D75 /* Omastar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Omastar.wav; sourceTree = "<group>"; };
+		1D12F6E52294B6F600060D75 /* Mewtwo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mewtwo.wav; sourceTree = "<group>"; };
+		1D12F6E62294B6F600060D75 /* Kakuna.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kakuna.wav; sourceTree = "<group>"; };
+		1D12F6E72294B6F600060D75 /* NidoranF.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NidoranF.wav; sourceTree = "<group>"; };
+		1D12F6E82294B6F600060D75 /* Rapidash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rapidash.wav; sourceTree = "<group>"; };
+		1D12F6E92294B6F700060D75 /* Grimer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Grimer.wav; sourceTree = "<group>"; };
+		1D12F6EA2294B6F700060D75 /* Clefairy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clefairy.wav; sourceTree = "<group>"; };
+		1D12F6EB2294B6F700060D75 /* Koffing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Koffing.wav; sourceTree = "<group>"; };
+		1D12F6EC2294B6F700060D75 /* Ninetales.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ninetales.wav; sourceTree = "<group>"; };
+		1D12F6ED2294B6F800060D75 /* Drowzee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drowzee.wav; sourceTree = "<group>"; };
+		1D12F6EE2294B6F800060D75 /* Persian.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Persian.wav; sourceTree = "<group>"; };
+		1D12F6EF2294B6F800060D75 /* Kingler.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kingler.wav; sourceTree = "<group>"; };
+		1D12F6F02294B6F900060D75 /* Diglett.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Diglett.wav; sourceTree = "<group>"; };
+		1D12F6F12294B6F900060D75 /* Staryu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Staryu.wav; sourceTree = "<group>"; };
+		1D12F6F22294B6F900060D75 /* Poliwhirl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Poliwhirl.wav; sourceTree = "<group>"; };
+		1D12F6F32294B6F900060D75 /* Slowbro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Slowbro.wav; sourceTree = "<group>"; };
+		1D12F6F42294B6FA00060D75 /* Dragonair.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dragonair.wav; sourceTree = "<group>"; };
+		1D12F6F52294B6FA00060D75 /* Kangaskhan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kangaskhan.wav; sourceTree = "<group>"; };
+		1D12F6F62294B6FB00060D75 /* Marowak.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Marowak.wav; sourceTree = "<group>"; };
+		1D12F6F72294B6FB00060D75 /* Geodude.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Geodude.wav; sourceTree = "<group>"; };
+		1D12F6F82294B6FC00060D75 /* Nidorina.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nidorina.wav; sourceTree = "<group>"; };
+		1D12F6F92294B6FC00060D75 /* Ponyta.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ponyta.wav; sourceTree = "<group>"; };
+		1D12F6FA2294B6FD00060D75 /* Gloom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gloom.wav; sourceTree = "<group>"; };
+		1D12F6FB2294B6FD00060D75 /* Paras.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Paras.wav; sourceTree = "<group>"; };
+		1D12F6FC2294B6FD00060D75 /* Arcanine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Arcanine.wav; sourceTree = "<group>"; };
+		1D12F6FD2294B6FE00060D75 /* Pidgeotto.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pidgeotto.wav; sourceTree = "<group>"; };
+		1D12F6FE2294B6FE00060D75 /* Meowth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Meowth.wav; sourceTree = "<group>"; };
+		1D12F6FF2294B6FE00060D75 /* Weedle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Weedle.wav; sourceTree = "<group>"; };
+		1D12F7002294B6FE00060D75 /* Abra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Abra.wav; sourceTree = "<group>"; };
+		1D12F7012294B6FF00060D75 /* Tauros.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tauros.wav; sourceTree = "<group>"; };
+		1D12F7022294B6FF00060D75 /* Dratini.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dratini.wav; sourceTree = "<group>"; };
+		1D12F7032294B6FF00060D75 /* Nidoking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nidoking.wav; sourceTree = "<group>"; };
+		1D12F7042294B70000060D75 /* Psyduck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Psyduck.wav; sourceTree = "<group>"; };
+		1D12F7052294B70000060D75 /* Parasect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Parasect.wav; sourceTree = "<group>"; };
+		1D12F7062294B70000060D75 /* Seaking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Seaking.wav; sourceTree = "<group>"; };
+		1D12F7072294B70100060D75 /* Krabby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Krabby.wav; sourceTree = "<group>"; };
+		1D12F7082294B70100060D75 /* Graveler.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Graveler.wav; sourceTree = "<group>"; };
+		1D12F7092294B70100060D75 /* Haunter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Haunter.wav; sourceTree = "<group>"; };
+		1D12F70A2294B70100060D75 /* Bulbasaur.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bulbasaur.wav; sourceTree = "<group>"; };
+		1D12F70B2294B70200060D75 /* Nidoqueen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nidoqueen.wav; sourceTree = "<group>"; };
+		1D12F70C2294B70200060D75 /* Primeape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Primeape.wav; sourceTree = "<group>"; };
+		1D12F70D2294B70200060D75 /* Hitmonlee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hitmonlee.wav; sourceTree = "<group>"; };
+		1D12F70E2294B70200060D75 /* Victreebel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Victreebel.wav; sourceTree = "<group>"; };
+		1D12F70F2294B70200060D75 /* Farfetch'd.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Farfetch'd.wav"; sourceTree = "<group>"; };
+		1D12F7102294B70300060D75 /* Machamp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Machamp.wav; sourceTree = "<group>"; };
+		1D12F7112294B70300060D75 /* Charizard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Charizard.wav; sourceTree = "<group>"; };
+		1D12F7122294B70300060D75 /* Kabutops.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kabutops.wav; sourceTree = "<group>"; };
+		1D12F7132294B70400060D75 /* Zapdos.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zapdos.wav; sourceTree = "<group>"; };
+		1D12F7142294B70400060D75 /* Seadra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Seadra.wav; sourceTree = "<group>"; };
+		1D12F7152294B70400060D75 /* Ditto.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ditto.wav; sourceTree = "<group>"; };
+		1D12F7162294B70500060D75 /* Electabuzz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Electabuzz.wav; sourceTree = "<group>"; };
+		1D12F7172294B70500060D75 /* Charmander.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Charmander.wav; sourceTree = "<group>"; };
+		1D12F7182294B70600060D75 /* Chansey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chansey.wav; sourceTree = "<group>"; };
+		1D12F7192294B70600060D75 /* Bellsprout.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bellsprout.wav; sourceTree = "<group>"; };
+		1D12F71A2294B70600060D75 /* Rattata.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rattata.wav; sourceTree = "<group>"; };
+		1D12F71B2294B70700060D75 /* Omanyte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Omanyte.wav; sourceTree = "<group>"; };
+		1D12F71C2294B70700060D75 /* Venomoth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Venomoth.wav; sourceTree = "<group>"; };
+		1D12F71D2294B70700060D75 /* Dewgong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dewgong.wav; sourceTree = "<group>"; };
+		1D12F71E2294B70700060D75 /* Magikarp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Magikarp.wav; sourceTree = "<group>"; };
+		1D12F71F2294B70800060D75 /* Pinsir.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pinsir.wav; sourceTree = "<group>"; };
+		1D12F7202294B70800060D75 /* Vileplume.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Vileplume.wav; sourceTree = "<group>"; };
+		1D12F7212294B70800060D75 /* Oddish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Oddish.wav; sourceTree = "<group>"; };
+		1D12F7222294B70900060D75 /* Sandslash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sandslash.wav; sourceTree = "<group>"; };
+		1D12F7232294B70900060D75 /* Magneton.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Magneton.wav; sourceTree = "<group>"; };
+		1D12F7242294B70900060D75 /* Wigglytuff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wigglytuff.wav; sourceTree = "<group>"; };
+		1D12F7252294B70A00060D75 /* Dragonite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dragonite.wav; sourceTree = "<group>"; };
+		1D12F7262294B70A00060D75 /* Poliwag.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Poliwag.wav; sourceTree = "<group>"; };
+		1D12F7272294B70A00060D75 /* Hypno.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hypno.wav; sourceTree = "<group>"; };
+		1D12F7282294B70B00060D75 /* Pidgey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pidgey.wav; sourceTree = "<group>"; };
+		1D12F7292294B70B00060D75 /* Spearow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Spearow.wav; sourceTree = "<group>"; };
+		1D12F72A2294B70B00060D75 /* Machop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Machop.wav; sourceTree = "<group>"; };
+		1D12F72B2294B70B00060D75 /* Raticate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Raticate.wav; sourceTree = "<group>"; };
+		1D12F72C2294B70C00060D75 /* Lapras.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lapras.wav; sourceTree = "<group>"; };
+		1D12F72D2294B70C00060D75 /* Articuno.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Articuno.wav; sourceTree = "<group>"; };
+		1D12F72E2294B70C00060D75 /* Snorlax.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snorlax.wav; sourceTree = "<group>"; };
+		1D12F72F2294B70D00060D75 /* Horsea.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Horsea.wav; sourceTree = "<group>"; };
+		1D12F7302294B70D00060D75 /* Raichu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Raichu.wav; sourceTree = "<group>"; };
+		1D12F7312294B70D00060D75 /* Metapod.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Metapod.wav; sourceTree = "<group>"; };
+		1D12F7322294B70E00060D75 /* Mr.Mime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mr.Mime.wav; sourceTree = "<group>"; };
+		1D12F7332294B70E00060D75 /* Voltorb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Voltorb.wav; sourceTree = "<group>"; };
+		1D12F7342294B70E00060D75 /* Butterfree.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Butterfree.wav; sourceTree = "<group>"; };
+		1D12F7352294B70F00060D75 /* Venonat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Venonat.wav; sourceTree = "<group>"; };
+		1D12F7362294B70F00060D75 /* Aerodactyl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aerodactyl.wav; sourceTree = "<group>"; };
+		1D12F7372294B70F00060D75 /* Golduck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Golduck.wav; sourceTree = "<group>"; };
+		1D12F7382294B71000060D75 /* Arbok.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Arbok.wav; sourceTree = "<group>"; };
+		1D12F7392294B71000060D75 /* Squirtle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Squirtle.wav; sourceTree = "<group>"; };
+		1D12F73A2294B71000060D75 /* Goldeen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Goldeen.wav; sourceTree = "<group>"; };
+		1D12F73B2294B71100060D75 /* Poliwrath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Poliwrath.wav; sourceTree = "<group>"; };
+		1D12F73C2294B71100060D75 /* Muk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Muk.wav; sourceTree = "<group>"; };
+		1D12F73D2294B71100060D75 /* Cloyster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cloyster.wav; sourceTree = "<group>"; };
+		1D12F73E2294B71200060D75 /* Growlithe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Growlithe.wav; sourceTree = "<group>"; };
+		1D12F73F2294B71200060D75 /* Fearow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fearow.wav; sourceTree = "<group>"; };
+		1D12F7402294B71200060D75 /* Kabuto.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kabuto.wav; sourceTree = "<group>"; };
+		1D12F7412294B71200060D75 /* Porygon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Porygon.wav; sourceTree = "<group>"; };
+		1D12F7422294B71300060D75 /* Rhyhorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rhyhorn.wav; sourceTree = "<group>"; };
+		1D12F7432294B71300060D75 /* Sandshrew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sandshrew.wav; sourceTree = "<group>"; };
+		1D12F7442294B71400060D75 /* Tentacool.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tentacool.wav; sourceTree = "<group>"; };
+		1D12F7452294B71400060D75 /* Gyarados.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gyarados.wav; sourceTree = "<group>"; };
+		1D12F7462294B71500060D75 /* Weezing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Weezing.wav; sourceTree = "<group>"; };
+		1D12F7472294B71500060D75 /* Flareon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Flareon.wav; sourceTree = "<group>"; };
+		1D3DFBCE2294B99D000C2C49 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +346,7 @@
 		1D12F68C2292C12A00060D75 = {
 			isa = PBXGroup;
 			children = (
+				1D3DFBCE2294B99D000C2C49 /* Default-568h@2x.png */,
 				1D12F6972292C12A00060D75 /* Pokecoso3 */,
 				1D12F6962292C12A00060D75 /* Products */,
 				1D12F6982292C12A00060D75 /* AppDelegate.swift */,
@@ -52,6 +357,7 @@
 				1D12F6A42292C12B00060D75 /* Info.plist */,
 				1D12F6AA2292F40D00060D75 /* ListaTableViewController.swift */,
 				1D12F6AC229301A100060D75 /* Pokemon.swift */,
+				1D12F7DF2294B72200060D75 /* Audio */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +374,164 @@
 			children = (
 			);
 			path = Pokecoso3;
+			sourceTree = "<group>";
+		};
+		1D12F7DF2294B72200060D75 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1D12F7362294B70F00060D75 /* Aerodactyl.wav */,
+				1D12F6C82294B6EE00060D75 /* Alakazam.wav */,
+				1D12F7382294B71000060D75 /* Arbok.wav */,
+				1D12F6FC2294B6FD00060D75 /* Arcanine.wav */,
+				1D12F72D2294B70C00060D75 /* Articuno.wav */,
+				1D12F6B12294B6EA00060D75 /* Beedrill.wav */,
+				1D12F7192294B70600060D75 /* Bellsprout.wav */,
+				1D12F6CF2294B6EF00060D75 /* Blastoise.wav */,
+				1D12F70A2294B70100060D75 /* Bulbasaur.wav */,
+				1D12F7342294B70E00060D75 /* Butterfree.wav */,
+				1D12F6D72294B6F100060D75 /* Caterpie.wav */,
+				1D12F7182294B70600060D75 /* Chansey.wav */,
+				1D12F7112294B70300060D75 /* Charizard.wav */,
+				1D12F7172294B70500060D75 /* Charmander.wav */,
+				1D12F6BE2294B6EC00060D75 /* Charmeleon.wav */,
+				1D12F6D22294B6F000060D75 /* Clefable.wav */,
+				1D12F6EA2294B6F700060D75 /* Clefairy.wav */,
+				1D12F73D2294B71100060D75 /* Cloyster.wav */,
+				1D12F6BB2294B6EC00060D75 /* Cubone.wav */,
+				1D12F71D2294B70700060D75 /* Dewgong.wav */,
+				1D12F6F02294B6F900060D75 /* Diglett.wav */,
+				1D12F7152294B70400060D75 /* Ditto.wav */,
+				1D12F6D32294B6F000060D75 /* Dodrio.wav */,
+				1D12F6C92294B6EE00060D75 /* Doduo.wav */,
+				1D12F6F42294B6FA00060D75 /* Dragonair.wav */,
+				1D12F7252294B70A00060D75 /* Dragonite.wav */,
+				1D12F7022294B6FF00060D75 /* Dratini.wav */,
+				1D12F6ED2294B6F800060D75 /* Drowzee.wav */,
+				1D12F6C52294B6EE00060D75 /* Dugtrio.wav */,
+				1D12F6D52294B6F100060D75 /* Eevee.wav */,
+				1D12F6B72294B6EB00060D75 /* Ekans.wav */,
+				1D12F7162294B70500060D75 /* Electabuzz.wav */,
+				1D12F6BF2294B6ED00060D75 /* Electrode.wav */,
+				1D12F6CB2294B6EF00060D75 /* Exeggcute.wav */,
+				1D12F6BC2294B6EC00060D75 /* Exeggutor.wav */,
+				1D12F70F2294B70200060D75 /* Farfetch'd.wav */,
+				1D12F73F2294B71200060D75 /* Fearow.wav */,
+				1D12F7472294B71500060D75 /* Flareon.wav */,
+				1D12F6C72294B6EE00060D75 /* Gastly.wav */,
+				1D12F6E02294B6F300060D75 /* Gengar.wav */,
+				1D12F6F72294B6FB00060D75 /* Geodude.wav */,
+				1D12F6FA2294B6FD00060D75 /* Gloom.wav */,
+				1D12F6B92294B6EC00060D75 /* Golbat.wav */,
+				1D12F73A2294B71000060D75 /* Goldeen.wav */,
+				1D12F7372294B70F00060D75 /* Golduck.wav */,
+				1D12F6B42294B6EB00060D75 /* Golem.wav */,
+				1D12F7082294B70100060D75 /* Graveler.wav */,
+				1D12F6E92294B6F700060D75 /* Grimer.wav */,
+				1D12F73E2294B71200060D75 /* Growlithe.wav */,
+				1D12F7452294B71400060D75 /* Gyarados.wav */,
+				1D12F7092294B70100060D75 /* Haunter.wav */,
+				1D12F6B32294B6EB00060D75 /* Hitmonchan.wav */,
+				1D12F70D2294B70200060D75 /* Hitmonlee.wav */,
+				1D12F72F2294B70D00060D75 /* Horsea.wav */,
+				1D12F7272294B70A00060D75 /* Hypno.wav */,
+				1D12F6C32294B6ED00060D75 /* Ivysaur.wav */,
+				1D12F6C22294B6ED00060D75 /* Jigglypuff.wav */,
+				1D12F6D12294B6F000060D75 /* Jolteon.wav */,
+				1D12F6DD2294B6F200060D75 /* Jynx.wav */,
+				1D12F7402294B71200060D75 /* Kabuto.wav */,
+				1D12F7122294B70300060D75 /* Kabutops.wav */,
+				1D12F6C12294B6ED00060D75 /* Kadabra.wav */,
+				1D12F6E62294B6F600060D75 /* Kakuna.wav */,
+				1D12F6F52294B6FA00060D75 /* Kangaskhan.wav */,
+				1D12F6EF2294B6F800060D75 /* Kingler.wav */,
+				1D12F6EB2294B6F700060D75 /* Koffing.wav */,
+				1D12F7072294B70100060D75 /* Krabby.wav */,
+				1D12F72C2294B70C00060D75 /* Lapras.wav */,
+				1D12F6B62294B6EB00060D75 /* Lickitung.wav */,
+				1D12F7102294B70300060D75 /* Machamp.wav */,
+				1D12F6D62294B6F100060D75 /* Machoke.wav */,
+				1D12F72A2294B70B00060D75 /* Machop.wav */,
+				1D12F71E2294B70700060D75 /* Magikarp.wav */,
+				1D12F6B22294B6EB00060D75 /* Magmar.wav */,
+				1D12F6E12294B6F400060D75 /* Magnemite.wav */,
+				1D12F7232294B70900060D75 /* Magneton.wav */,
+				1D12F6D92294B6F100060D75 /* Mankey.wav */,
+				1D12F6F62294B6FB00060D75 /* Marowak.wav */,
+				1D12F6FE2294B6FE00060D75 /* Meowth.wav */,
+				1D12F7312294B70D00060D75 /* Metapod.wav */,
+				1D12F6DA2294B6F200060D75 /* Mew.wav */,
+				1D12F6E52294B6F600060D75 /* Mewtwo.wav */,
+				1D12F6C02294B6ED00060D75 /* Moltres.wav */,
+				1D12F7322294B70E00060D75 /* Mr.Mime.wav */,
+				1D12F73C2294B71100060D75 /* Muk.wav */,
+				1D12F7032294B6FF00060D75 /* Nidoking.wav */,
+				1D12F70B2294B70200060D75 /* Nidoqueen.wav */,
+				1D12F6E72294B6F600060D75 /* NidoranF.wav */,
+				1D12F6B52294B6EB00060D75 /* NidoranM.wav */,
+				1D12F6F82294B6FC00060D75 /* Nidorina.wav */,
+				1D12F6BD2294B6EC00060D75 /* Nidorino.wav */,
+				1D12F6EC2294B6F700060D75 /* Ninetales.wav */,
+				1D12F7212294B70800060D75 /* Oddish.wav */,
+				1D12F71B2294B70700060D75 /* Omanyte.wav */,
+				1D12F6E42294B6F500060D75 /* Omastar.wav */,
+				1D12F6CA2294B6EE00060D75 /* Onix.wav */,
+				1D12F6FB2294B6FD00060D75 /* Paras.wav */,
+				1D12F7052294B70000060D75 /* Parasect.wav */,
+				1D12F6EE2294B6F800060D75 /* Persian.wav */,
+				1D12F6E22294B6F400060D75 /* Pidgeot.wav */,
+				1D12F6FD2294B6FE00060D75 /* Pidgeotto.wav */,
+				1D12F7282294B70B00060D75 /* Pidgey.wav */,
+				1D12F6DF2294B6F300060D75 /* Pikachu.wav */,
+				1D12F71F2294B70800060D75 /* Pinsir.wav */,
+				1D12F7262294B70A00060D75 /* Poliwag.wav */,
+				1D12F6F22294B6F900060D75 /* Poliwhirl.wav */,
+				1D12F73B2294B71100060D75 /* Poliwrath.wav */,
+				1D12F6F92294B6FC00060D75 /* Ponyta.wav */,
+				1D12F7412294B71200060D75 /* Porygon.wav */,
+				1D12F70C2294B70200060D75 /* Primeape.wav */,
+				1D12F7042294B70000060D75 /* Psyduck.wav */,
+				1D12F7302294B70D00060D75 /* Raichu.wav */,
+				1D12F6E82294B6F600060D75 /* Rapidash.wav */,
+				1D12F72B2294B70B00060D75 /* Raticate.wav */,
+				1D12F71A2294B70600060D75 /* Rattata.wav */,
+				1D12F6CE2294B6EF00060D75 /* Rhydon.wav */,
+				1D12F7422294B71300060D75 /* Rhyhorn.wav */,
+				1D12F7432294B71300060D75 /* Sandshrew.wav */,
+				1D12F7222294B70900060D75 /* Sandslash.wav */,
+				1D12F6D42294B6F000060D75 /* Scyther.wav */,
+				1D12F7142294B70400060D75 /* Seadra.wav */,
+				1D12F7062294B70000060D75 /* Seaking.wav */,
+				1D12F6C62294B6EE00060D75 /* Seel.wav */,
+				1D12F6C42294B6ED00060D75 /* Shellder.wav */,
+				1D12F6F32294B6F900060D75 /* Slowbro.wav */,
+				1D12F6E32294B6F500060D75 /* Slowpoke.wav */,
+				1D12F72E2294B70C00060D75 /* Snorlax.wav */,
+				1D12F7292294B70B00060D75 /* Spearow.wav */,
+				1D12F7392294B71000060D75 /* Squirtle.wav */,
+				1D12F6D02294B6F000060D75 /* Starmie.wav */,
+				1D12F6F12294B6F900060D75 /* Staryu.wav */,
+				1D12F6D82294B6F100060D75 /* Tangela.wav */,
+				1D12F7012294B6FF00060D75 /* Tauros.wav */,
+				1D12F7442294B71400060D75 /* Tentacool.wav */,
+				1D12F6DE2294B6F200060D75 /* Tentacruel.wav */,
+				1D12F6DB2294B6F200060D75 /* Vaporeon.wav */,
+				1D12F71C2294B70700060D75 /* Venomoth.wav */,
+				1D12F7352294B70F00060D75 /* Venonat.wav */,
+				1D12F6BA2294B6EC00060D75 /* Venusaur.wav */,
+				1D12F70E2294B70200060D75 /* Victreebel.wav */,
+				1D12F7202294B70800060D75 /* Vileplume.wav */,
+				1D12F7332294B70E00060D75 /* Voltorb.wav */,
+				1D12F6B82294B6EB00060D75 /* Vulpix.wav */,
+				1D12F6CD2294B6EF00060D75 /* Wartortle.wav */,
+				1D12F6FF2294B6FE00060D75 /* Weedle.wav */,
+				1D12F6CC2294B6EF00060D75 /* Weepinbell.wav */,
+				1D12F7462294B71500060D75 /* Weezing.wav */,
+				1D12F7242294B70900060D75 /* Wigglytuff.wav */,
+				1D12F7132294B70400060D75 /* Zapdos.wav */,
+				1D12F6DC2294B6F200060D75 /* Zubat.wav */,
+				1D12F7002294B6FE00060D75 /* Abra.wav */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +592,161 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D12F7922294B71500060D75 /* Paras.wav in Resources */,
+				1D12F7712294B71500060D75 /* Mew.wav in Resources */,
+				1D12F78C2294B71500060D75 /* Kangaskhan.wav in Resources */,
+				1D12F7492294B71500060D75 /* Magmar.wav in Resources */,
+				1D12F77B2294B71500060D75 /* Omastar.wav in Resources */,
+				1D12F7C52294B71500060D75 /* Snorlax.wav in Resources */,
+				1D12F7762294B71500060D75 /* Pikachu.wav in Resources */,
+				1D12F7BC2294B71500060D75 /* Dragonite.wav in Resources */,
+				1D12F76B2294B71500060D75 /* Scyther.wav in Resources */,
+				1D12F7A22294B71500060D75 /* Nidoqueen.wav in Resources */,
+				1D12F7CC2294B71500060D75 /* Venonat.wav in Resources */,
+				1D12F74F2294B71500060D75 /* Vulpix.wav in Resources */,
+				1D12F7752294B71500060D75 /* Tentacruel.wav in Resources */,
+				1D12F7622294B71500060D75 /* Exeggcute.wav in Resources */,
+				1D12F75E2294B71500060D75 /* Gastly.wav in Resources */,
+				1D12F79D2294B71500060D75 /* Seaking.wav in Resources */,
+				1D12F7BD2294B71500060D75 /* Poliwag.wav in Resources */,
+				1D12F77A2294B71500060D75 /* Slowpoke.wav in Resources */,
+				1D12F78F2294B71500060D75 /* Nidorina.wav in Resources */,
+				1D12F7C22294B71500060D75 /* Raticate.wav in Resources */,
+				1D12F75A2294B71500060D75 /* Ivysaur.wav in Resources */,
+				1D12F7652294B71500060D75 /* Rhydon.wav in Resources */,
+				1D12F7992294B71500060D75 /* Dratini.wav in Resources */,
+				1D12F7532294B71500060D75 /* Exeggutor.wav in Resources */,
 				1D12F6A32292C12B00060D75 /* LaunchScreen.storyboard in Resources */,
+				1D12F7722294B71500060D75 /* Vaporeon.wav in Resources */,
 				1D12F6A02292C12B00060D75 /* Assets.xcassets in Resources */,
+				1D12F77F2294B71500060D75 /* Rapidash.wav in Resources */,
+				1D12F78D2294B71500060D75 /* Marowak.wav in Resources */,
+				1D12F7AF2294B71500060D75 /* Chansey.wav in Resources */,
+				1D12F7A72294B71500060D75 /* Machamp.wav in Resources */,
+				1D12F7AC2294B71500060D75 /* Ditto.wav in Resources */,
+				1D12F7BA2294B71500060D75 /* Magneton.wav in Resources */,
+				1D12F7BB2294B71500060D75 /* Wigglytuff.wav in Resources */,
+				1D12F7AA2294B71500060D75 /* Zapdos.wav in Resources */,
+				1D12F7862294B71500060D75 /* Kingler.wav in Resources */,
+				1D12F7DE2294B71500060D75 /* Flareon.wav in Resources */,
+				1D12F7A32294B71500060D75 /* Primeape.wav in Resources */,
+				1D12F7CF2294B71500060D75 /* Arbok.wav in Resources */,
+				1D12F7612294B71500060D75 /* Onix.wav in Resources */,
+				1D12F79B2294B71500060D75 /* Psyduck.wav in Resources */,
+				1D12F7742294B71500060D75 /* Jynx.wav in Resources */,
+				1D12F75D2294B71500060D75 /* Seel.wav in Resources */,
+				1D12F7D12294B71500060D75 /* Goldeen.wav in Resources */,
+				1D12F7732294B71500060D75 /* Zubat.wav in Resources */,
+				1D12F7602294B71500060D75 /* Doduo.wav in Resources */,
+				1D12F7552294B71500060D75 /* Charmeleon.wav in Resources */,
+				1D12F77E2294B71500060D75 /* NidoranF.wav in Resources */,
+				1D3DFBCF2294B99D000C2C49 /* Default-568h@2x.png in Resources */,
 				1D12F69E2292C12A00060D75 /* Main.storyboard in Resources */,
+				1D12F76C2294B71500060D75 /* Eevee.wav in Resources */,
+				1D12F7A02294B71500060D75 /* Haunter.wav in Resources */,
+				1D12F7C12294B71500060D75 /* Machop.wav in Resources */,
+				1D12F7642294B71500060D75 /* Wartortle.wav in Resources */,
+				1D12F78B2294B71500060D75 /* Dragonair.wav in Resources */,
+				1D12F79C2294B71500060D75 /* Parasect.wav in Resources */,
+				1D12F7AE2294B71500060D75 /* Charmander.wav in Resources */,
+				1D12F7B82294B71500060D75 /* Oddish.wav in Resources */,
+				1D12F7B72294B71500060D75 /* Vileplume.wav in Resources */,
+				1D12F7A62294B71500060D75 /* Farfetch'd.wav in Resources */,
+				1D12F7512294B71500060D75 /* Venusaur.wav in Resources */,
+				1D12F7522294B71500060D75 /* Cubone.wav in Resources */,
+				1D12F7772294B71500060D75 /* Gengar.wav in Resources */,
+				1D12F7D22294B71500060D75 /* Poliwrath.wav in Resources */,
+				1D12F7582294B71500060D75 /* Kadabra.wav in Resources */,
+				1D12F7B02294B71500060D75 /* Bellsprout.wav in Resources */,
+				1D12F7682294B71500060D75 /* Jolteon.wav in Resources */,
+				1D12F7AB2294B71500060D75 /* Seadra.wav in Resources */,
+				1D12F7DC2294B71500060D75 /* Gyarados.wav in Resources */,
+				1D12F7A92294B71500060D75 /* Kabutops.wav in Resources */,
+				1D12F74D2294B71500060D75 /* Lickitung.wav in Resources */,
+				1D12F7A42294B71500060D75 /* Hitmonlee.wav in Resources */,
+				1D12F7662294B71500060D75 /* Blastoise.wav in Resources */,
+				1D12F7DA2294B71500060D75 /* Sandshrew.wav in Resources */,
+				1D12F7DB2294B71500060D75 /* Tentacool.wav in Resources */,
+				1D12F7D62294B71500060D75 /* Fearow.wav in Resources */,
+				1D12F7D52294B71500060D75 /* Growlithe.wav in Resources */,
+				1D12F79A2294B71500060D75 /* Nidoking.wav in Resources */,
+				1D12F7D02294B71500060D75 /* Squirtle.wav in Resources */,
+				1D12F7B32294B71500060D75 /* Venomoth.wav in Resources */,
+				1D12F7832294B71500060D75 /* Ninetales.wav in Resources */,
+				1D12F7B92294B71500060D75 /* Sandslash.wav in Resources */,
+				1D12F76D2294B71500060D75 /* Machoke.wav in Resources */,
+				1D12F7592294B71500060D75 /* Jigglypuff.wav in Resources */,
+				1D12F76F2294B71500060D75 /* Tangela.wav in Resources */,
+				1D12F7C82294B71500060D75 /* Metapod.wav in Resources */,
+				1D12F7632294B71500060D75 /* Weepinbell.wav in Resources */,
+				1D12F7842294B71500060D75 /* Drowzee.wav in Resources */,
+				1D12F7D92294B71500060D75 /* Rhyhorn.wav in Resources */,
+				1D12F7932294B71500060D75 /* Arcanine.wav in Resources */,
+				1D12F7B42294B71500060D75 /* Dewgong.wav in Resources */,
+				1D12F75F2294B71500060D75 /* Alakazam.wav in Resources */,
+				1D12F7C42294B71500060D75 /* Articuno.wav in Resources */,
+				1D12F7822294B71500060D75 /* Koffing.wav in Resources */,
+				1D12F7CA2294B71500060D75 /* Voltorb.wav in Resources */,
+				1D12F7C02294B71500060D75 /* Spearow.wav in Resources */,
+				1D12F7872294B71500060D75 /* Diglett.wav in Resources */,
+				1D12F75C2294B71500060D75 /* Dugtrio.wav in Resources */,
+				1D12F7782294B71500060D75 /* Magnemite.wav in Resources */,
+				1D12F7AD2294B71500060D75 /* Electabuzz.wav in Resources */,
+				1D12F7892294B71500060D75 /* Poliwhirl.wav in Resources */,
+				1D12F7D42294B71500060D75 /* Cloyster.wav in Resources */,
+				1D12F78E2294B71500060D75 /* Geodude.wav in Resources */,
+				1D12F74C2294B71500060D75 /* NidoranM.wav in Resources */,
+				1D12F7792294B71500060D75 /* Pidgeot.wav in Resources */,
+				1D12F7942294B71500060D75 /* Pidgeotto.wav in Resources */,
+				1D12F7B12294B71500060D75 /* Rattata.wav in Resources */,
+				1D12F7B52294B71500060D75 /* Magikarp.wav in Resources */,
+				1D12F76E2294B71500060D75 /* Caterpie.wav in Resources */,
+				1D12F79E2294B71500060D75 /* Krabby.wav in Resources */,
+				1D12F7542294B71500060D75 /* Nidorino.wav in Resources */,
+				1D12F7B62294B71500060D75 /* Pinsir.wav in Resources */,
+				1D12F7882294B71500060D75 /* Staryu.wav in Resources */,
+				1D12F7562294B71500060D75 /* Electrode.wav in Resources */,
+				1D12F7DD2294B71500060D75 /* Weezing.wav in Resources */,
+				1D12F7A52294B71500060D75 /* Victreebel.wav in Resources */,
+				1D12F7852294B71500060D75 /* Persian.wav in Resources */,
+				1D12F7972294B71500060D75 /* Abra.wav in Resources */,
+				1D12F7502294B71500060D75 /* Golbat.wav in Resources */,
+				1D12F7482294B71500060D75 /* Beedrill.wav in Resources */,
+				1D12F7802294B71500060D75 /* Grimer.wav in Resources */,
+				1D12F74E2294B71500060D75 /* Ekans.wav in Resources */,
+				1D12F75B2294B71500060D75 /* Shellder.wav in Resources */,
+				1D12F7C62294B71500060D75 /* Horsea.wav in Resources */,
+				1D12F7C72294B71500060D75 /* Raichu.wav in Resources */,
+				1D12F7A82294B71500060D75 /* Charizard.wav in Resources */,
+				1D12F74A2294B71500060D75 /* Hitmonchan.wav in Resources */,
+				1D12F7952294B71500060D75 /* Meowth.wav in Resources */,
+				1D12F7C32294B71500060D75 /* Lapras.wav in Resources */,
+				1D12F7902294B71500060D75 /* Ponyta.wav in Resources */,
+				1D12F7812294B71500060D75 /* Clefairy.wav in Resources */,
+				1D12F77C2294B71500060D75 /* Mewtwo.wav in Resources */,
+				1D12F7912294B71500060D75 /* Gloom.wav in Resources */,
+				1D12F7D72294B71500060D75 /* Kabuto.wav in Resources */,
+				1D12F76A2294B71500060D75 /* Dodrio.wav in Resources */,
+				1D12F7B22294B71500060D75 /* Omanyte.wav in Resources */,
+				1D12F7D82294B71500060D75 /* Porygon.wav in Resources */,
+				1D12F7702294B71500060D75 /* Mankey.wav in Resources */,
+				1D12F7BF2294B71500060D75 /* Pidgey.wav in Resources */,
+				1D12F7572294B71500060D75 /* Moltres.wav in Resources */,
+				1D12F7CD2294B71500060D75 /* Aerodactyl.wav in Resources */,
+				1D12F7962294B71500060D75 /* Weedle.wav in Resources */,
+				1D12F7CE2294B71500060D75 /* Golduck.wav in Resources */,
+				1D12F7692294B71500060D75 /* Clefable.wav in Resources */,
+				1D12F7672294B71500060D75 /* Starmie.wav in Resources */,
+				1D12F7BE2294B71500060D75 /* Hypno.wav in Resources */,
+				1D12F7C92294B71500060D75 /* Mr.Mime.wav in Resources */,
+				1D12F7A12294B71500060D75 /* Bulbasaur.wav in Resources */,
+				1D12F79F2294B71500060D75 /* Graveler.wav in Resources */,
+				1D12F7982294B71500060D75 /* Tauros.wav in Resources */,
+				1D12F7D32294B71500060D75 /* Muk.wav in Resources */,
+				1D12F78A2294B71500060D75 /* Slowbro.wav in Resources */,
+				1D12F77D2294B71500060D75 /* Kakuna.wav in Resources */,
+				1D12F7CB2294B71500060D75 /* Butterfree.wav in Resources */,
+				1D12F74B2294B71500060D75 /* Golem.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

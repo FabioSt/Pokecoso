@@ -7,12 +7,31 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DetailViewController: UIViewController {
     
+    var musicPlayer : AVAudioPlayer!
     @IBOutlet weak var bigImageView: UIImageView!
     @IBOutlet weak var nameDetail: UILabel!
     
+    
+    @IBAction func btnSound(_ sender: UIButton) {
+        initAudio()
+    }
+    
+    func initAudio() {
+        let path = Bundle.main.path(forResource: "\(nameDetail.text ?? "loremipsum")", ofType: "wav")
+        
+        do {
+            musicPlayer = try AVAudioPlayer(contentsOf: URL(string: path ?? "loremipsum")!)
+            musicPlayer.prepareToPlay()
+            musicPlayer.numberOfLoops = 0
+            musicPlayer.play()
+        } catch let err as NSError {
+            print(err.debugDescription)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +39,7 @@ class DetailViewController: UIViewController {
         nameDetail.text = title
         bigImageView.image = UIImage(named: "\(nameDetail.text ?? "loremipsum")")
     }
+    
     
     /*
     // MARK: - Navigation
