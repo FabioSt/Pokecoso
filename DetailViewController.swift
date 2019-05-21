@@ -10,13 +10,16 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var bigImageView: UIImageView!
+    @IBOutlet weak var nameDetail: UILabel!
+    var bigImagesList = [BigImages]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        bigImageView.image = UIImage(named: "1b")
     }
     
-
     /*
     // MARK: - Navigation
 

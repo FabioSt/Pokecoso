@@ -12,3 +12,7 @@ struct Pokemon {
     let nomePkmn : String
     let categoria : [String]
 }
+
+struct BigImages {
+    let bigImage : String
+}

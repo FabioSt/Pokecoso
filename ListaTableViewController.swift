@@ -259,7 +259,6 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
         
         var pokemon : Pokemon
         
-        
         // se viene la Search Bar è attiva allora utilizza l'elemento con indice visualizzato a partire dalla listra Filtrata
         if (resultSearchController?.isActive)! {
             pokemon = listaFiltrata[indexPath.row]
@@ -277,7 +276,10 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
     //se viene selezionato una riga della tabella attiva il segue per spostarti nella View dei Dettagli
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "dettaglioPokemonSegue", sender: tableView)
+       
     }
+    
+    
     
     //quando viene attivato il segue setta il titolo della View di Dettaglio in base al nome
     //dell'elemento o cercato o selezionato
