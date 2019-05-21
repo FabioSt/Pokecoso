@@ -11,3 +11,6 @@ ___
 - Big Images now pointing at the right pokémon in detail view
 - Added Label in detailview
 
+___
+
+- Added Sounds! Now every Pokémon has a voice :)
