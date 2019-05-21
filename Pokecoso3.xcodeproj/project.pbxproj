@@ -44,6 +44,14 @@
 			children = (
 				1D12F6972292C12A00060D75 /* Pokecoso3 */,
 				1D12F6962292C12A00060D75 /* Products */,
+				1D12F6982292C12A00060D75 /* AppDelegate.swift */,
+				1D12F69C2292C12A00060D75 /* Main.storyboard */,
+				1D12F6AE229375BC00060D75 /* DetailViewController.swift */,
+				1D12F69F2292C12B00060D75 /* Assets.xcassets */,
+				1D12F6A12292C12B00060D75 /* LaunchScreen.storyboard */,
+				1D12F6A42292C12B00060D75 /* Info.plist */,
+				1D12F6AA2292F40D00060D75 /* ListaTableViewController.swift */,
+				1D12F6AC229301A100060D75 /* Pokemon.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +66,6 @@
 		1D12F6972292C12A00060D75 /* Pokecoso3 */ = {
 			isa = PBXGroup;
 			children = (
-				1D12F6982292C12A00060D75 /* AppDelegate.swift */,
-				1D12F69C2292C12A00060D75 /* Main.storyboard */,
-				1D12F6AE229375BC00060D75 /* DetailViewController.swift */,
-				1D12F69F2292C12B00060D75 /* Assets.xcassets */,
-				1D12F6A12292C12B00060D75 /* LaunchScreen.storyboard */,
-				1D12F6A42292C12B00060D75 /* Info.plist */,
-				1D12F6AA2292F40D00060D75 /* ListaTableViewController.swift */,
-				1D12F6AC229301A100060D75 /* Pokemon.swift */,
 			);
 			path = Pokecoso3;
 			sourceTree = "<group>";
