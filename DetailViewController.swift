@@ -11,17 +11,20 @@ import AVFoundation
 
 class DetailViewController: UIViewController {
     
+    var numeroPokemon: Int = 0
+    var pokemonScelto: Pokemon?
     var musicPlayer : AVAudioPlayer!
     @IBOutlet weak var bigImageView: UIImageView!
     @IBOutlet weak var nameDetail: UILabel!
-    @IBOutlet weak var descriptionText: UITextView!
+    @IBOutlet weak var descriptionText2: UITextView!
+    @IBOutlet weak var pesoLabel: UILabel!
     
     @IBAction func btnSound(_ sender: UIButton) {
         initAudio()
     }
     
     func initAudio() {
-        let path = Bundle.main.path(forResource: "\(nameDetail.text ?? "loremipsum")", ofType: "wav")
+        let path = Bundle.main.path(forResource: "\(pokemonScelto?.nomePkmn ?? "loremipsum")", ofType: "wav")
         
         do {
             musicPlayer = try AVAudioPlayer(contentsOf: URL(string: path ?? "loremipsum")!)
@@ -36,14 +39,17 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameDetail.text = title
-        bigImageView.image = UIImage(named: "\(nameDetail.text ?? "loremipsum")")
+        pokemonScelto = listaPkmn[numeroPokemon - 1]
+        pesoLabel.text = pokemonScelto?.peso
+        nameDetail.text = pokemonScelto?.nomePkmn
+        self.title = pokemonScelto?.nomePkmn
+        bigImageView.image = UIImage(named: "\(pokemonScelto?.nomePkmn ?? "loremipsum")")
         
-        if let path = Bundle.main.path(forResource: "\(nameDetail.text ?? "loremipsum")", ofType: "txt") {
+        if let path = Bundle.main.path(forResource: "Bulbasaur", ofType: "txt") {
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
                 let myStrings = data.components(separatedBy: .newlines)
-                descriptionText.text = myStrings.joined(separator: ", ")
+                descriptionText2.text = myStrings.joined(separator: ", ")
             } catch {
                 print(error)
             }
@@ -51,14 +57,6 @@ class DetailViewController: UIViewController {
     }
     
     
-    /*
-    // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

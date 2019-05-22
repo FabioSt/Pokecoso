@@ -17,7 +17,6 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
     
 
     
-    var listaPkmn = [Pokemon]()
     var resultSearchController: UISearchController?
     var listaFiltrata = [Pokemon]()
     
@@ -25,14 +24,15 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
     
     func filtraContenuti(testoCercato: String, scope:String) {
         listaFiltrata.removeAll(keepingCapacity: true)
-        
+        print("testocercato = \(testoCercato)")
         for x in listaPkmn {
-            var justOne = false
-            for (_, categoria) in x.categoria.enumerated() {
+            for categoria in x.categoria {
                 if scope == "Tutti" || scope == categoria {
-                    if x.nomePkmn.range(of: testoCercato.localizedLowercase) != nil && justOne == false {
+                    if x.nomePkmn.lowercased().hasPrefix(testoCercato.localizedLowercase) {
+                        print("trovato \(x.nomePkmn) con \(testoCercato.localizedLowercase)")
                         listaFiltrata.append(x)
-                        justOne = true
+                    } else {
+                        print("NON trovato \(x.nomePkmn) con \(testoCercato.localizedLowercase)")
                     }
                 }
             }
@@ -50,159 +50,6 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
         super.viewDidLoad()
         
         
-        self.listaPkmn = [
-        Pokemon(nomePkmn: "Bulbasaur", categoria: [""]),
-        Pokemon(nomePkmn: "Ivysaur", categoria: [""]),
-        Pokemon(nomePkmn: "Venusaur", categoria: [""]),
-        Pokemon(nomePkmn: "Charmander", categoria: [""]),
-        Pokemon(nomePkmn: "Charmeleon", categoria: [""]),
-        Pokemon(nomePkmn: "Charizard", categoria: [""]),
-        Pokemon(nomePkmn: "Squirtle", categoria: [""]),
-        Pokemon(nomePkmn: "Wartortle", categoria: [""]),
-        Pokemon(nomePkmn: "Blastoise", categoria: [""]),
-        Pokemon(nomePkmn: "Caterpie", categoria: [""]),
-        Pokemon(nomePkmn: "Metapod", categoria: [""]),
-        Pokemon(nomePkmn: "Butterfree", categoria: [""]),
-        Pokemon(nomePkmn: "Weedle", categoria: [""]),
-        Pokemon(nomePkmn: "Kakuna", categoria: [""]),
-        Pokemon(nomePkmn: "Beedrill", categoria: [""]),
-        Pokemon(nomePkmn: "Pidgey", categoria: [""]),
-        Pokemon(nomePkmn: "Pidgeotto", categoria: [""]),
-        Pokemon(nomePkmn: "Pidgeot", categoria: [""]),
-        Pokemon(nomePkmn: "Rattata", categoria: [""]),
-        Pokemon(nomePkmn: "Raticate", categoria: [""]),
-        Pokemon(nomePkmn: "Spearow", categoria: [""]),
-        Pokemon(nomePkmn: "Fearow", categoria: [""]),
-        Pokemon(nomePkmn: "Ekans", categoria: [""]),
-        Pokemon(nomePkmn: "Arbok", categoria: [""]),
-        Pokemon(nomePkmn: "Pikachu", categoria: [""]),
-        Pokemon(nomePkmn: "Raichu", categoria: [""]),
-        Pokemon(nomePkmn: "Sandshrew", categoria: [""]),
-        Pokemon(nomePkmn: "Sandslash", categoria: [""]),
-        Pokemon(nomePkmn: "NidoranF", categoria: [""]),
-        Pokemon(nomePkmn: "Nidorina", categoria: [""]),
-        Pokemon(nomePkmn: "Nidoqueen", categoria: [""]),
-        Pokemon(nomePkmn: "NidoranM", categoria: [""]),
-        Pokemon(nomePkmn: "Nidorino", categoria: [""]),
-        Pokemon(nomePkmn: "Nidoking", categoria: [""]),
-        Pokemon(nomePkmn: "Clefairy", categoria: [""]),
-        Pokemon(nomePkmn: "Clefable", categoria: [""]),
-        Pokemon(nomePkmn: "Vulpix", categoria: [""]),
-        Pokemon(nomePkmn: "Ninetales", categoria: [""]),
-        Pokemon(nomePkmn: "Jigglypuff", categoria: [""]),
-        Pokemon(nomePkmn: "Wigglytuff", categoria: [""]),
-        Pokemon(nomePkmn: "Zubat", categoria: [""]),
-        Pokemon(nomePkmn: "Golbat", categoria: [""]),
-        Pokemon(nomePkmn: "Oddish", categoria: [""]),
-        Pokemon(nomePkmn: "Gloom", categoria: [""]),
-        Pokemon(nomePkmn: "Vileplume", categoria: [""]),
-        Pokemon(nomePkmn: "Paras", categoria: [""]),
-        Pokemon(nomePkmn: "Parasect", categoria: [""]),
-        Pokemon(nomePkmn: "Venonat", categoria: [""]),
-        Pokemon(nomePkmn: "Venomoth", categoria: [""]),
-        Pokemon(nomePkmn: "Diglett", categoria: [""]),
-        Pokemon(nomePkmn: "Dugtrio", categoria: [""]),
-        Pokemon(nomePkmn: "Meowth", categoria: [""]),
-        Pokemon(nomePkmn: "Persian", categoria: [""]),
-        Pokemon(nomePkmn: "Psyduck", categoria: [""]),
-        Pokemon(nomePkmn: "Golduck", categoria: [""]),
-        Pokemon(nomePkmn: "Monkey", categoria: [""]),
-        Pokemon(nomePkmn: "Primeape", categoria: [""]),
-        Pokemon(nomePkmn: "Growlithe", categoria: [""]),
-        Pokemon(nomePkmn: "Arcanine", categoria: [""]),
-        Pokemon(nomePkmn: "Poliwag", categoria: [""]),
-        Pokemon(nomePkmn: "Poliwhirl", categoria: [""]),
-        Pokemon(nomePkmn: "Poliwrath", categoria: [""]),
-        Pokemon(nomePkmn: "Abra", categoria: [""]),
-        Pokemon(nomePkmn: "Kadabra", categoria: [""]),
-        Pokemon(nomePkmn: "Alakazam", categoria: [""]),
-        Pokemon(nomePkmn: "Machop", categoria: [""]),
-        Pokemon(nomePkmn: "Machoke", categoria: [""]),
-        Pokemon(nomePkmn: "Machamp", categoria: [""]),
-        Pokemon(nomePkmn: "Bellsprout", categoria: [""]),
-        Pokemon(nomePkmn: "Weepinbell", categoria: [""]),
-        Pokemon(nomePkmn: "Victreebel", categoria: [""]),
-        Pokemon(nomePkmn: "Tentacool", categoria: [""]),
-        Pokemon(nomePkmn: "Tentacruel", categoria: [""]),
-        Pokemon(nomePkmn: "Geodude", categoria: [""]),
-        Pokemon(nomePkmn: "Graveler", categoria: [""]),
-        Pokemon(nomePkmn: "Golem", categoria: [""]),
-        Pokemon(nomePkmn: "Ponyta", categoria: [""]),
-        Pokemon(nomePkmn: "Rapidash", categoria: [""]),
-        Pokemon(nomePkmn: "Slowpoke", categoria: [""]),
-        Pokemon(nomePkmn: "Slowbro", categoria: [""]),
-        Pokemon(nomePkmn: "Magnemite", categoria: [""]),
-        Pokemon(nomePkmn: "Magneton", categoria: [""]),
-        Pokemon(nomePkmn: "Farfetch'd", categoria: [""]),
-        Pokemon(nomePkmn: "Doduo", categoria: [""]),
-        Pokemon(nomePkmn: "Dodrio", categoria: [""]),
-        Pokemon(nomePkmn: "Seel", categoria: [""]),
-        Pokemon(nomePkmn: "Dewgong", categoria: [""]),
-        Pokemon(nomePkmn: "Grimer", categoria: [""]),
-        Pokemon(nomePkmn: "Muk", categoria: [""]),
-        Pokemon(nomePkmn: "Shellder", categoria: [""]),
-        Pokemon(nomePkmn: "Cloyster", categoria: [""]),
-        Pokemon(nomePkmn: "Gastly", categoria: [""]),
-        Pokemon(nomePkmn: "Hunter", categoria: [""]),
-        Pokemon(nomePkmn: "Gengar", categoria: [""]),
-        Pokemon(nomePkmn: "Onix", categoria: [""]),
-        Pokemon(nomePkmn: "Drowzee", categoria: [""]),
-        Pokemon(nomePkmn: "Hypno", categoria: [""]),
-        Pokemon(nomePkmn: "Krabby", categoria: [""]),
-        Pokemon(nomePkmn: "Kingler", categoria: [""]),
-        Pokemon(nomePkmn: "Voltorb", categoria: [""]),
-        Pokemon(nomePkmn: "Electrode", categoria: [""]),
-        Pokemon(nomePkmn: "Exeggcute", categoria: [""]),
-        Pokemon(nomePkmn: "Exeggutor", categoria: [""]),
-        Pokemon(nomePkmn: "Cubone", categoria: [""]),
-        Pokemon(nomePkmn: "Marowak", categoria: [""]),
-        Pokemon(nomePkmn: "Hitmonlee", categoria: [""]),
-        Pokemon(nomePkmn: "Hitmonchan", categoria: [""]),
-        Pokemon(nomePkmn: "Lickitung", categoria: [""]),
-        Pokemon(nomePkmn: "Koffing", categoria: [""]),
-        Pokemon(nomePkmn: "Weezing", categoria: [""]),
-        Pokemon(nomePkmn: "Rhyhorn", categoria: [""]),
-        Pokemon(nomePkmn: "Rhydon", categoria: [""]),
-        Pokemon(nomePkmn: "Chansey", categoria: [""]),
-        Pokemon(nomePkmn: "Tangela", categoria: [""]),
-        Pokemon(nomePkmn: "Kangaskhan", categoria: [""]),
-        Pokemon(nomePkmn: "Horsea", categoria: [""]),
-        Pokemon(nomePkmn: "Seadra", categoria: [""]),
-        Pokemon(nomePkmn: "Goldeen", categoria: [""]),
-        Pokemon(nomePkmn: "Seaking", categoria: [""]),
-        Pokemon(nomePkmn: "Staryu", categoria: [""]),
-        Pokemon(nomePkmn: "Starmie", categoria: [""]),
-        Pokemon(nomePkmn: "Mr.Mime", categoria: [""]),
-        Pokemon(nomePkmn: "Schyter", categoria: [""]),
-        Pokemon(nomePkmn: "Jinx", categoria: [""]),
-        Pokemon(nomePkmn: "Electabuzz", categoria: [""]),
-        Pokemon(nomePkmn: "Magmar", categoria: [""]),
-        Pokemon(nomePkmn: "Pinsir", categoria: [""]),
-        Pokemon(nomePkmn: "Tauros", categoria: [""]),
-        Pokemon(nomePkmn: "Magikarp", categoria: [""]),
-        Pokemon(nomePkmn: "Gyarados", categoria: [""]),
-        Pokemon(nomePkmn: "Lapras", categoria: [""]),
-        Pokemon(nomePkmn: "Ditto", categoria: [""]),
-        Pokemon(nomePkmn: "Eevee", categoria: [""]),
-        Pokemon(nomePkmn: "Vaporeon", categoria: [""]),
-        Pokemon(nomePkmn: "Jolteon", categoria: [""]),
-        Pokemon(nomePkmn: "Flareon", categoria: [""]),
-        Pokemon(nomePkmn: "Porygon", categoria: [""]),
-        Pokemon(nomePkmn: "Omanyte", categoria: [""]),
-        Pokemon(nomePkmn: "Omastar", categoria: [""]),
-        Pokemon(nomePkmn: "Kabuto", categoria: [""]),
-        Pokemon(nomePkmn: "Kabutops", categoria: [""]),
-        Pokemon(nomePkmn: "Aerodactyl", categoria: [""]),
-        Pokemon(nomePkmn: "Snorlax", categoria: [""]),
-        Pokemon(nomePkmn: "Articuno", categoria: [""]),
-        Pokemon(nomePkmn: "Zapdos", categoria: [""]),
-        Pokemon(nomePkmn: "Moltres", categoria: [""]),
-        Pokemon(nomePkmn: "Dratini", categoria: [""]),
-        Pokemon(nomePkmn: "Dragonair", categoria: [""]),
-        Pokemon(nomePkmn: "Dragonite", categoria: [""]),
-        Pokemon(nomePkmn: "Mewtwo", categoria: [""]),
-        Pokemon(nomePkmn: "Mew", categoria: [""])
-        ]
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -249,7 +96,7 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
         if controller.isActive {
             return self.listaFiltrata.count
         } else {
-            return self.listaPkmn.count
+            return listaPkmn.count
         }
     }
     
@@ -270,7 +117,7 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
         
         //riempio la cella assegnando ad una label testuale il nome dell'alimento
         cella.textLabel?.text = pokemon.nomePkmn
-        cella.imageView?.image = UIImage(named: "\(indexPath.row+1)")
+        cella.imageView?.image = UIImage(named: "\(pokemon.numero)")
         cella.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         return cella
     }
@@ -287,15 +134,21 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
     //dell'elemento o cercato o selezionato
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "dettaglioPokemonSegue" {
-            let pokemonDetailViewController = segue.destination as! DetailViewController
             let indexPath = tableView.indexPathForSelectedRow
-            _ = tableView.cellForRow(at: indexPath!)
+            guard let numeroRiga = indexPath?.row else {
+                print("Nessuna riga selezionata")
+                return
+            }
+            guard let pokemonDetailViewController = segue.destination as? DetailViewController else {
+                print("Non è il controller giusto")
+                return
+            }
             if self.resultSearchController?.isActive ?? true {
-                let TitoloDestinazione = self.listaFiltrata[indexPath?.row ?? 0].nomePkmn
-                pokemonDetailViewController.title = TitoloDestinazione
+                let numeroPokemon = self.listaFiltrata[numeroRiga].numero
+                pokemonDetailViewController.numeroPokemon = numeroPokemon
             } else {
-                let TitoloDestinazione = self.listaPkmn[indexPath?.row ?? 0].nomePkmn
-                pokemonDetailViewController.title = TitoloDestinazione
+                let numeroPokemon = listaPkmn[numeroRiga].numero
+                pokemonDetailViewController.numeroPokemon = numeroPokemon
             }
         }
     }

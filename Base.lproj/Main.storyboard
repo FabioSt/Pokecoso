@@ -76,7 +76,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XGx-9G-njW">
                                 <rect key="frame" x="45" y="123" width="324" height="321"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcw-SC-Ihi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome Pokémon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcw-SC-Ihi">
                                 <rect key="frame" x="45" y="464" width="324" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="bSv-o7-AIb"/>
@@ -85,9 +85,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WR-in-AL2">
-                                <rect key="frame" x="45" y="123" width="324" height="321"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WR-in-AL2">
+                                <rect key="frame" x="45" y="728" width="324" height="34"/>
                                 <state key="normal" title="CLICCAMI">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -95,22 +94,32 @@
                                     <action selector="btnSound:" destination="D6J-eN-BOr" eventType="touchUpInside" id="iqr-gr-aut"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uJv-dH-LRZ">
-                                <rect key="frame" x="45" y="521" width="324" height="194"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KKn-Ah-PHe">
+                                <rect key="frame" x="45" y="511" width="324" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Peso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFf-hg-UeH">
+                                <rect key="frame" x="45" y="670" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
                             <constraint firstItem="uf7-pt-jm4" firstAttribute="bottom" secondItem="tcw-SC-Ihi" secondAttribute="bottom" constant="359" id="7dq-zy-ep9"/>
                             <constraint firstItem="tcw-SC-Ihi" firstAttribute="top" secondItem="XGx-9G-njW" secondAttribute="bottom" constant="20" id="A80-eb-uHp"/>
+                            <constraint firstItem="uf7-pt-jm4" firstAttribute="trailing" secondItem="5WR-in-AL2" secondAttribute="trailing" constant="45" id="Mo7-oM-FRA"/>
+                            <constraint firstItem="5WR-in-AL2" firstAttribute="leading" secondItem="uf7-pt-jm4" secondAttribute="leading" constant="45" id="PEp-Ik-697"/>
                             <constraint firstItem="tcw-SC-Ihi" firstAttribute="leading" secondItem="uf7-pt-jm4" secondAttribute="leading" constant="45" id="Pip-vT-puB"/>
                             <constraint firstItem="XGx-9G-njW" firstAttribute="top" secondItem="uf7-pt-jm4" secondAttribute="top" constant="35" id="aW9-gE-Vgx"/>
+                            <constraint firstItem="uf7-pt-jm4" firstAttribute="bottom" secondItem="5WR-in-AL2" secondAttribute="bottom" constant="100" id="iSQ-AJ-nXr"/>
                             <constraint firstItem="XGx-9G-njW" firstAttribute="leading" secondItem="uf7-pt-jm4" secondAttribute="leading" constant="45" id="jdW-C2-AVT"/>
                             <constraint firstItem="uf7-pt-jm4" firstAttribute="trailing" secondItem="XGx-9G-njW" secondAttribute="trailing" constant="45" id="oIu-fG-RNY"/>
                             <constraint firstItem="uf7-pt-jm4" firstAttribute="trailing" secondItem="tcw-SC-Ihi" secondAttribute="trailing" constant="45" id="uR2-ws-HPx"/>
@@ -119,8 +128,9 @@
                     </view>
                     <connections>
                         <outlet property="bigImageView" destination="XGx-9G-njW" id="PiG-g0-lZM"/>
-                        <outlet property="descriptionText" destination="uJv-dH-LRZ" id="q4V-3K-LFY"/>
+                        <outlet property="descriptionText2" destination="KKn-Ah-PHe" id="tCJ-iX-rzK"/>
                         <outlet property="nameDetail" destination="tcw-SC-Ihi" id="dMF-zq-5Nh"/>
+                        <outlet property="pesoLabel" destination="MFf-hg-UeH" id="qlC-UI-7TK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iH-kJ-kP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
