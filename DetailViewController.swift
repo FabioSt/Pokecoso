@@ -14,7 +14,7 @@ class DetailViewController: UIViewController {
     var musicPlayer : AVAudioPlayer!
     @IBOutlet weak var bigImageView: UIImageView!
     @IBOutlet weak var nameDetail: UILabel!
-    
+    @IBOutlet weak var descriptionText: UITextView!
     
     @IBAction func btnSound(_ sender: UIButton) {
         initAudio()
@@ -38,6 +38,16 @@ class DetailViewController: UIViewController {
         
         nameDetail.text = title
         bigImageView.image = UIImage(named: "\(nameDetail.text ?? "loremipsum")")
+        
+        if let path = Bundle.main.path(forResource: "\(nameDetail.text ?? "loremipsum")", ofType: "txt") {
+            do {
+                let data = try String(contentsOfFile: path, encoding: .utf8)
+                let myStrings = data.components(separatedBy: .newlines)
+                descriptionText.text = myStrings.joined(separator: ", ")
+            } catch {
+                print(error)
+            }
+        }
     }
     
     
