@@ -1,0 +1,1 @@
+Se le tre teste di Dodrio guardano in tre direzioni diverse, significa che il Pokémon è vigile. In questo stato il Pokémon non va avvicinato, poiché potrebbe decidere di attaccare.

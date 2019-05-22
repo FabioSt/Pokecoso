@@ -1,0 +1,1 @@
+Le due teste di Doduo non dormono mai nello stesso momento, in modo che una sia sempre vigile per difendersi dai nemici, mentre l'altra può riposare tranquilla.

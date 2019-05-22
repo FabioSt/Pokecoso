@@ -40,12 +40,12 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         pokemonScelto = listaPkmn[numeroPokemon - 1]
-        pesoLabel.text = pokemonScelto?.peso
+        pesoLabel.text = "Peso: " + "\(pokemonScelto?.peso ?? "loremipsum")"
         nameDetail.text = pokemonScelto?.nomePkmn
         self.title = pokemonScelto?.nomePkmn
         bigImageView.image = UIImage(named: "\(pokemonScelto?.nomePkmn ?? "loremipsum")")
         
-        if let path = Bundle.main.path(forResource: "Bulbasaur", ofType: "txt") {
+        if let path = Bundle.main.path(forResource: "\(pokemonScelto?.nomePkmn ?? "loremipsum")", ofType: "txt") {
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
                 let myStrings = data.components(separatedBy: .newlines)

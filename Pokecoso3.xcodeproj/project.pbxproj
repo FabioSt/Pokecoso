@@ -167,6 +167,157 @@
 		1D12F7DE2294B71500060D75 /* Flareon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7472294B71500060D75 /* Flareon.wav */; };
 		1D3DFBCF2294B99D000C2C49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBCE2294B99D000C2C49 /* Default-568h@2x.png */; };
 		1D3DFBD22294C6A5000C2C49 /* Bulbasaur.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD12294C6A5000C2C49 /* Bulbasaur.txt */; };
+		1D3DFC6A22956133000C2C49 /* Machop.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD322956126000C2C49 /* Machop.txt */; };
+		1D3DFC6B22956133000C2C49 /* Starmie.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD422956126000C2C49 /* Starmie.txt */; };
+		1D3DFC6C22956133000C2C49 /* Exeggutor.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD522956126000C2C49 /* Exeggutor.txt */; };
+		1D3DFC6D22956133000C2C49 /* Weezing.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD622956126000C2C49 /* Weezing.txt */; };
+		1D3DFC6E22956133000C2C49 /* Clefairy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD722956126000C2C49 /* Clefairy.txt */; };
+		1D3DFC6F22956133000C2C49 /* Poliwag.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD822956126000C2C49 /* Poliwag.txt */; };
+		1D3DFC7022956133000C2C49 /* Primeape.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD922956126000C2C49 /* Primeape.txt */; };
+		1D3DFC7122956133000C2C49 /* Pidgey.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBDA22956126000C2C49 /* Pidgey.txt */; };
+		1D3DFC7222956133000C2C49 /* Clefable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBDB22956126000C2C49 /* Clefable.txt */; };
+		1D3DFC7322956133000C2C49 /* Venusaur.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBDC22956126000C2C49 /* Venusaur.txt */; };
+		1D3DFC7422956133000C2C49 /* Ditto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBDD22956126000C2C49 /* Ditto.txt */; };
+		1D3DFC7522956133000C2C49 /* Scyther.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBDE22956126000C2C49 /* Scyther.txt */; };
+		1D3DFC7622956133000C2C49 /* Venonat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBDF22956126000C2C49 /* Venonat.txt */; };
+		1D3DFC7722956133000C2C49 /* Mr.Mime.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE022956126000C2C49 /* Mr.Mime.txt */; };
+		1D3DFC7822956133000C2C49 /* Dragonite.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE122956127000C2C49 /* Dragonite.txt */; };
+		1D3DFC7922956133000C2C49 /* Magikarp.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE222956127000C2C49 /* Magikarp.txt */; };
+		1D3DFC7A22956133000C2C49 /* Caterpie.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE322956127000C2C49 /* Caterpie.txt */; };
+		1D3DFC7B22956133000C2C49 /* Mewtwo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE422956127000C2C49 /* Mewtwo.txt */; };
+		1D3DFC7C22956133000C2C49 /* Flareon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE522956127000C2C49 /* Flareon.txt */; };
+		1D3DFC7D22956133000C2C49 /* Bulbasaur.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE622956127000C2C49 /* Bulbasaur.txt */; };
+		1D3DFC7E22956133000C2C49 /* Kingler.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE722956127000C2C49 /* Kingler.txt */; };
+		1D3DFC7F22956133000C2C49 /* Mew.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE822956127000C2C49 /* Mew.txt */; };
+		1D3DFC8022956133000C2C49 /* Venomoth.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBE922956127000C2C49 /* Venomoth.txt */; };
+		1D3DFC8122956133000C2C49 /* Raticate.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBEA22956127000C2C49 /* Raticate.txt */; };
+		1D3DFC8222956133000C2C49 /* Electabuzz.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBEB22956127000C2C49 /* Electabuzz.txt */; };
+		1D3DFC8322956133000C2C49 /* Aerodactyl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBEC22956127000C2C49 /* Aerodactyl.txt */; };
+		1D3DFC8422956133000C2C49 /* Omanyte.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBED22956127000C2C49 /* Omanyte.txt */; };
+		1D3DFC8522956133000C2C49 /* Machoke.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBEE22956127000C2C49 /* Machoke.txt */; };
+		1D3DFC8622956133000C2C49 /* Nidorina.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBEF22956128000C2C49 /* Nidorina.txt */; };
+		1D3DFC8722956133000C2C49 /* Golbat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF022956128000C2C49 /* Golbat.txt */; };
+		1D3DFC8822956133000C2C49 /* Electrode.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF122956128000C2C49 /* Electrode.txt */; };
+		1D3DFC8922956133000C2C49 /* Rhyhorn.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF222956128000C2C49 /* Rhyhorn.txt */; };
+		1D3DFC8A22956133000C2C49 /* Dratini.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF322956128000C2C49 /* Dratini.txt */; };
+		1D3DFC8B22956133000C2C49 /* Tentacool.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF422956128000C2C49 /* Tentacool.txt */; };
+		1D3DFC8C22956133000C2C49 /* Chansey.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF522956128000C2C49 /* Chansey.txt */; };
+		1D3DFC8D22956133000C2C49 /* Hitmonchan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF622956128000C2C49 /* Hitmonchan.txt */; };
+		1D3DFC8E22956133000C2C49 /* Pinsir.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF722956128000C2C49 /* Pinsir.txt */; };
+		1D3DFC8F22956133000C2C49 /* Charizard.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF822956128000C2C49 /* Charizard.txt */; };
+		1D3DFC9022956133000C2C49 /* Nidoking.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBF922956128000C2C49 /* Nidoking.txt */; };
+		1D3DFC9122956133000C2C49 /* Bellsprout.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBFA22956129000C2C49 /* Bellsprout.txt */; };
+		1D3DFC9222956133000C2C49 /* Slowbro.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBFB22956129000C2C49 /* Slowbro.txt */; };
+		1D3DFC9322956133000C2C49 /* Oddish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBFC22956129000C2C49 /* Oddish.txt */; };
+		1D3DFC9422956133000C2C49 /* Rattata.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBFD22956129000C2C49 /* Rattata.txt */; };
+		1D3DFC9522956133000C2C49 /* Cubone.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBFE22956129000C2C49 /* Cubone.txt */; };
+		1D3DFC9622956133000C2C49 /* Magmar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBFF22956129000C2C49 /* Magmar.txt */; };
+		1D3DFC9722956133000C2C49 /* Onix.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0022956129000C2C49 /* Onix.txt */; };
+		1D3DFC9822956133000C2C49 /* Seaking.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0122956129000C2C49 /* Seaking.txt */; };
+		1D3DFC9922956133000C2C49 /* Gyarados.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0222956129000C2C49 /* Gyarados.txt */; };
+		1D3DFC9A22956133000C2C49 /* Squirtle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0322956129000C2C49 /* Squirtle.txt */; };
+		1D3DFC9B22956133000C2C49 /* Poliwrath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0422956129000C2C49 /* Poliwrath.txt */; };
+		1D3DFC9C22956133000C2C49 /* NidoranM.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC052295612A000C2C49 /* NidoranM.txt */; };
+		1D3DFC9D22956133000C2C49 /* Paras.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC062295612A000C2C49 /* Paras.txt */; };
+		1D3DFC9E22956133000C2C49 /* Pikachu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC072295612A000C2C49 /* Pikachu.txt */; };
+		1D3DFC9F22956133000C2C49 /* Psyduck.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC082295612A000C2C49 /* Psyduck.txt */; };
+		1D3DFCA022956133000C2C49 /* Ninetales.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC092295612A000C2C49 /* Ninetales.txt */; };
+		1D3DFCA122956133000C2C49 /* Gengar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0A2295612A000C2C49 /* Gengar.txt */; };
+		1D3DFCA222956133000C2C49 /* Farfetch'd.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0B2295612A000C2C49 /* Farfetch'd.txt */; };
+		1D3DFCA322956133000C2C49 /* Lickitung.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0C2295612A000C2C49 /* Lickitung.txt */; };
+		1D3DFCA422956133000C2C49 /* Lapras.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0D2295612A000C2C49 /* Lapras.txt */; };
+		1D3DFCA522956133000C2C49 /* Parasect.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0E2295612A000C2C49 /* Parasect.txt */; };
+		1D3DFCA622956133000C2C49 /* Fearow.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC0F2295612A000C2C49 /* Fearow.txt */; };
+		1D3DFCA722956133000C2C49 /* Diglett.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC102295612A000C2C49 /* Diglett.txt */; };
+		1D3DFCA822956133000C2C49 /* Persian.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC112295612B000C2C49 /* Persian.txt */; };
+		1D3DFCA922956133000C2C49 /* Shellder.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC122295612B000C2C49 /* Shellder.txt */; };
+		1D3DFCAA22956133000C2C49 /* Zubat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC132295612B000C2C49 /* Zubat.txt */; };
+		1D3DFCAB22956133000C2C49 /* Seel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC142295612B000C2C49 /* Seel.txt */; };
+		1D3DFCAC22956133000C2C49 /* Tangela.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC152295612B000C2C49 /* Tangela.txt */; };
+		1D3DFCAD22956133000C2C49 /* Kangaskhan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC162295612B000C2C49 /* Kangaskhan.txt */; };
+		1D3DFCAE22956133000C2C49 /* Vulpix.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC172295612B000C2C49 /* Vulpix.txt */; };
+		1D3DFCAF22956133000C2C49 /* Machamp.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC182295612B000C2C49 /* Machamp.txt */; };
+		1D3DFCB022956133000C2C49 /* Wartortle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC192295612B000C2C49 /* Wartortle.txt */; };
+		1D3DFCB122956133000C2C49 /* Arbok.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC1A2295612C000C2C49 /* Arbok.txt */; };
+		1D3DFCB222956133000C2C49 /* Seadra.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC1B2295612C000C2C49 /* Seadra.txt */; };
+		1D3DFCB322956133000C2C49 /* Moltres.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC1C2295612C000C2C49 /* Moltres.txt */; };
+		1D3DFCB422956133000C2C49 /* Sandslash.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC1D2295612C000C2C49 /* Sandslash.txt */; };
+		1D3DFCB522956133000C2C49 /* Omastar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC1E2295612C000C2C49 /* Omastar.txt */; };
+		1D3DFCB622956133000C2C49 /* Raichu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC1F2295612C000C2C49 /* Raichu.txt */; };
+		1D3DFCB722956133000C2C49 /* Magneton.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC202295612C000C2C49 /* Magneton.txt */; };
+		1D3DFCB822956133000C2C49 /* Jynx.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC212295612C000C2C49 /* Jynx.txt */; };
+		1D3DFCB922956133000C2C49 /* Kadabra.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC222295612C000C2C49 /* Kadabra.txt */; };
+		1D3DFCBA22956133000C2C49 /* Vaporeon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC232295612C000C2C49 /* Vaporeon.txt */; };
+		1D3DFCBB22956133000C2C49 /* Blastoise.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC242295612D000C2C49 /* Blastoise.txt */; };
+		1D3DFCBC22956133000C2C49 /* Articuno.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC252295612D000C2C49 /* Articuno.txt */; };
+		1D3DFCBD22956133000C2C49 /* Vileplume.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC262295612D000C2C49 /* Vileplume.txt */; };
+		1D3DFCBE22956133000C2C49 /* Zapdos.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC272295612D000C2C49 /* Zapdos.txt */; };
+		1D3DFCBF22956133000C2C49 /* Pidgeotto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC282295612D000C2C49 /* Pidgeotto.txt */; };
+		1D3DFCC022956133000C2C49 /* Doduo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC292295612D000C2C49 /* Doduo.txt */; };
+		1D3DFCC122956133000C2C49 /* Haunter.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC2A2295612D000C2C49 /* Haunter.txt */; };
+		1D3DFCC222956133000C2C49 /* Graveler.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC2B2295612D000C2C49 /* Graveler.txt */; };
+		1D3DFCC322956133000C2C49 /* Kakuna.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC2C2295612D000C2C49 /* Kakuna.txt */; };
+		1D3DFCC422956133000C2C49 /* Ivysaur.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC2D2295612D000C2C49 /* Ivysaur.txt */; };
+		1D3DFCC522956133000C2C49 /* Magnemite.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC2E2295612D000C2C49 /* Magnemite.txt */; };
+		1D3DFCC622956133000C2C49 /* Weedle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC2F2295612E000C2C49 /* Weedle.txt */; };
+		1D3DFCC722956133000C2C49 /* Marowak.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC302295612E000C2C49 /* Marowak.txt */; };
+		1D3DFCC822956133000C2C49 /* Dodrio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC312295612E000C2C49 /* Dodrio.txt */; };
+		1D3DFCC922956133000C2C49 /* Staryu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC322295612E000C2C49 /* Staryu.txt */; };
+		1D3DFCCA22956133000C2C49 /* Tauros.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC332295612E000C2C49 /* Tauros.txt */; };
+		1D3DFCCB22956133000C2C49 /* Gloom.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC342295612E000C2C49 /* Gloom.txt */; };
+		1D3DFCCC22956133000C2C49 /* Butterfree.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC352295612E000C2C49 /* Butterfree.txt */; };
+		1D3DFCCD22956133000C2C49 /* Dewgong.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC362295612E000C2C49 /* Dewgong.txt */; };
+		1D3DFCCE22956133000C2C49 /* Tentacruel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC372295612E000C2C49 /* Tentacruel.txt */; };
+		1D3DFCCF22956133000C2C49 /* Abra.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC382295612E000C2C49 /* Abra.txt */; };
+		1D3DFCD022956133000C2C49 /* Poliwhirl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC392295612E000C2C49 /* Poliwhirl.txt */; };
+		1D3DFCD122956133000C2C49 /* NidoranF.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC3A2295612F000C2C49 /* NidoranF.txt */; };
+		1D3DFCD222956133000C2C49 /* Slowpoke.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC3B2295612F000C2C49 /* Slowpoke.txt */; };
+		1D3DFCD322956133000C2C49 /* Goldeen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC3C2295612F000C2C49 /* Goldeen.txt */; };
+		1D3DFCD422956133000C2C49 /* Charmeleon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC3D2295612F000C2C49 /* Charmeleon.txt */; };
+		1D3DFCD522956133000C2C49 /* Kabutops.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC3E2295612F000C2C49 /* Kabutops.txt */; };
+		1D3DFCD622956133000C2C49 /* Sandshrew.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC3F2295612F000C2C49 /* Sandshrew.txt */; };
+		1D3DFCD722956133000C2C49 /* Wigglytuff.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC402295612F000C2C49 /* Wigglytuff.txt */; };
+		1D3DFCD822956133000C2C49 /* Weepinbell.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC412295612F000C2C49 /* Weepinbell.txt */; };
+		1D3DFCD922956133000C2C49 /* Metapod.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC422295612F000C2C49 /* Metapod.txt */; };
+		1D3DFCDA22956133000C2C49 /* Dragonair.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC432295612F000C2C49 /* Dragonair.txt */; };
+		1D3DFCDB22956133000C2C49 /* Gastly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC442295612F000C2C49 /* Gastly.txt */; };
+		1D3DFCDC22956133000C2C49 /* Mankey.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4522956130000C2C49 /* Mankey.txt */; };
+		1D3DFCDD22956133000C2C49 /* Dugtrio.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4622956130000C2C49 /* Dugtrio.txt */; };
+		1D3DFCDE22956133000C2C49 /* Jigglypuff.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4722956130000C2C49 /* Jigglypuff.txt */; };
+		1D3DFCDF22956133000C2C49 /* Hypno.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4822956130000C2C49 /* Hypno.txt */; };
+		1D3DFCE022956133000C2C49 /* Beedrill.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4922956130000C2C49 /* Beedrill.txt */; };
+		1D3DFCE122956133000C2C49 /* Meowth.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4A22956130000C2C49 /* Meowth.txt */; };
+		1D3DFCE222956133000C2C49 /* Golem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4B22956130000C2C49 /* Golem.txt */; };
+		1D3DFCE322956133000C2C49 /* Ponyta.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4C22956130000C2C49 /* Ponyta.txt */; };
+		1D3DFCE422956133000C2C49 /* Snorlax.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4D22956130000C2C49 /* Snorlax.txt */; };
+		1D3DFCE522956133000C2C49 /* Charmander.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4E22956130000C2C49 /* Charmander.txt */; };
+		1D3DFCE622956133000C2C49 /* Jolteon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC4F22956130000C2C49 /* Jolteon.txt */; };
+		1D3DFCE722956133000C2C49 /* Grimer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5022956131000C2C49 /* Grimer.txt */; };
+		1D3DFCE822956133000C2C49 /* Ekans.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5122956131000C2C49 /* Ekans.txt */; };
+		1D3DFCE922956133000C2C49 /* Alakazam.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5222956131000C2C49 /* Alakazam.txt */; };
+		1D3DFCEA22956133000C2C49 /* Exeggcute.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5322956131000C2C49 /* Exeggcute.txt */; };
+		1D3DFCEB22956133000C2C49 /* Porygon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5422956131000C2C49 /* Porygon.txt */; };
+		1D3DFCEC22956133000C2C49 /* Spearow.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5522956131000C2C49 /* Spearow.txt */; };
+		1D3DFCED22956133000C2C49 /* Hitmonlee.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5622956131000C2C49 /* Hitmonlee.txt */; };
+		1D3DFCEE22956133000C2C49 /* Nidorino.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5722956131000C2C49 /* Nidorino.txt */; };
+		1D3DFCEF22956133000C2C49 /* Voltorb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5822956131000C2C49 /* Voltorb.txt */; };
+		1D3DFCF022956133000C2C49 /* Growlithe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5922956131000C2C49 /* Growlithe.txt */; };
+		1D3DFCF122956133000C2C49 /* Koffing.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5A22956131000C2C49 /* Koffing.txt */; };
+		1D3DFCF222956133000C2C49 /* Kabuto.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5B22956132000C2C49 /* Kabuto.txt */; };
+		1D3DFCF322956133000C2C49 /* Rhydon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5C22956132000C2C49 /* Rhydon.txt */; };
+		1D3DFCF422956133000C2C49 /* Horsea.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5D22956132000C2C49 /* Horsea.txt */; };
+		1D3DFCF522956133000C2C49 /* Nidoqueen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5E22956132000C2C49 /* Nidoqueen.txt */; };
+		1D3DFCF622956133000C2C49 /* Muk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC5F22956132000C2C49 /* Muk.txt */; };
+		1D3DFCF722956133000C2C49 /* Eevee.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6022956132000C2C49 /* Eevee.txt */; };
+		1D3DFCF822956133000C2C49 /* Drowzee.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6122956132000C2C49 /* Drowzee.txt */; };
+		1D3DFCF922956133000C2C49 /* Krabby.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6222956132000C2C49 /* Krabby.txt */; };
+		1D3DFCFA22956133000C2C49 /* Geodude.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6322956132000C2C49 /* Geodude.txt */; };
+		1D3DFCFB22956133000C2C49 /* Cloyster.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6422956132000C2C49 /* Cloyster.txt */; };
+		1D3DFCFC22956133000C2C49 /* Golduck.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6522956132000C2C49 /* Golduck.txt */; };
+		1D3DFCFD22956133000C2C49 /* Victreebell.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6622956133000C2C49 /* Victreebell.txt */; };
+		1D3DFCFE22956133000C2C49 /* Arcanine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6722956133000C2C49 /* Arcanine.txt */; };
+		1D3DFCFF22956133000C2C49 /* Pidgeot.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6822956133000C2C49 /* Pidgeot.txt */; };
+		1D3DFD0022956133000C2C49 /* Rapidash.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFC6922956133000C2C49 /* Rapidash.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -332,6 +483,157 @@
 		1D12F7472294B71500060D75 /* Flareon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Flareon.wav; sourceTree = "<group>"; };
 		1D3DFBCE2294B99D000C2C49 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1D3DFBD12294C6A5000C2C49 /* Bulbasaur.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bulbasaur.txt; sourceTree = "<group>"; };
+		1D3DFBD322956126000C2C49 /* Machop.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Machop.txt; sourceTree = "<group>"; };
+		1D3DFBD422956126000C2C49 /* Starmie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Starmie.txt; sourceTree = "<group>"; };
+		1D3DFBD522956126000C2C49 /* Exeggutor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Exeggutor.txt; sourceTree = "<group>"; };
+		1D3DFBD622956126000C2C49 /* Weezing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Weezing.txt; sourceTree = "<group>"; };
+		1D3DFBD722956126000C2C49 /* Clefairy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Clefairy.txt; sourceTree = "<group>"; };
+		1D3DFBD822956126000C2C49 /* Poliwag.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Poliwag.txt; sourceTree = "<group>"; };
+		1D3DFBD922956126000C2C49 /* Primeape.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Primeape.txt; sourceTree = "<group>"; };
+		1D3DFBDA22956126000C2C49 /* Pidgey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pidgey.txt; sourceTree = "<group>"; };
+		1D3DFBDB22956126000C2C49 /* Clefable.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Clefable.txt; sourceTree = "<group>"; };
+		1D3DFBDC22956126000C2C49 /* Venusaur.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Venusaur.txt; sourceTree = "<group>"; };
+		1D3DFBDD22956126000C2C49 /* Ditto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ditto.txt; sourceTree = "<group>"; };
+		1D3DFBDE22956126000C2C49 /* Scyther.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scyther.txt; sourceTree = "<group>"; };
+		1D3DFBDF22956126000C2C49 /* Venonat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Venonat.txt; sourceTree = "<group>"; };
+		1D3DFBE022956126000C2C49 /* Mr.Mime.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mr.Mime.txt; sourceTree = "<group>"; };
+		1D3DFBE122956127000C2C49 /* Dragonite.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dragonite.txt; sourceTree = "<group>"; };
+		1D3DFBE222956127000C2C49 /* Magikarp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Magikarp.txt; sourceTree = "<group>"; };
+		1D3DFBE322956127000C2C49 /* Caterpie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Caterpie.txt; sourceTree = "<group>"; };
+		1D3DFBE422956127000C2C49 /* Mewtwo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mewtwo.txt; sourceTree = "<group>"; };
+		1D3DFBE522956127000C2C49 /* Flareon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flareon.txt; sourceTree = "<group>"; };
+		1D3DFBE622956127000C2C49 /* Bulbasaur.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Bulbasaur.txt; path = "../../../../../Downloads/Pokemon description/Bulbasaur.txt"; sourceTree = "<group>"; };
+		1D3DFBE722956127000C2C49 /* Kingler.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kingler.txt; sourceTree = "<group>"; };
+		1D3DFBE822956127000C2C49 /* Mew.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mew.txt; sourceTree = "<group>"; };
+		1D3DFBE922956127000C2C49 /* Venomoth.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Venomoth.txt; sourceTree = "<group>"; };
+		1D3DFBEA22956127000C2C49 /* Raticate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Raticate.txt; sourceTree = "<group>"; };
+		1D3DFBEB22956127000C2C49 /* Electabuzz.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Electabuzz.txt; sourceTree = "<group>"; };
+		1D3DFBEC22956127000C2C49 /* Aerodactyl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Aerodactyl.txt; sourceTree = "<group>"; };
+		1D3DFBED22956127000C2C49 /* Omanyte.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Omanyte.txt; sourceTree = "<group>"; };
+		1D3DFBEE22956127000C2C49 /* Machoke.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Machoke.txt; sourceTree = "<group>"; };
+		1D3DFBEF22956128000C2C49 /* Nidorina.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nidorina.txt; sourceTree = "<group>"; };
+		1D3DFBF022956128000C2C49 /* Golbat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Golbat.txt; sourceTree = "<group>"; };
+		1D3DFBF122956128000C2C49 /* Electrode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Electrode.txt; sourceTree = "<group>"; };
+		1D3DFBF222956128000C2C49 /* Rhyhorn.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rhyhorn.txt; sourceTree = "<group>"; };
+		1D3DFBF322956128000C2C49 /* Dratini.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dratini.txt; sourceTree = "<group>"; };
+		1D3DFBF422956128000C2C49 /* Tentacool.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tentacool.txt; sourceTree = "<group>"; };
+		1D3DFBF522956128000C2C49 /* Chansey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chansey.txt; sourceTree = "<group>"; };
+		1D3DFBF622956128000C2C49 /* Hitmonchan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hitmonchan.txt; sourceTree = "<group>"; };
+		1D3DFBF722956128000C2C49 /* Pinsir.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pinsir.txt; sourceTree = "<group>"; };
+		1D3DFBF822956128000C2C49 /* Charizard.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Charizard.txt; sourceTree = "<group>"; };
+		1D3DFBF922956128000C2C49 /* Nidoking.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nidoking.txt; sourceTree = "<group>"; };
+		1D3DFBFA22956129000C2C49 /* Bellsprout.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bellsprout.txt; sourceTree = "<group>"; };
+		1D3DFBFB22956129000C2C49 /* Slowbro.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Slowbro.txt; sourceTree = "<group>"; };
+		1D3DFBFC22956129000C2C49 /* Oddish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oddish.txt; sourceTree = "<group>"; };
+		1D3DFBFD22956129000C2C49 /* Rattata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rattata.txt; sourceTree = "<group>"; };
+		1D3DFBFE22956129000C2C49 /* Cubone.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cubone.txt; sourceTree = "<group>"; };
+		1D3DFBFF22956129000C2C49 /* Magmar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Magmar.txt; sourceTree = "<group>"; };
+		1D3DFC0022956129000C2C49 /* Onix.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Onix.txt; sourceTree = "<group>"; };
+		1D3DFC0122956129000C2C49 /* Seaking.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Seaking.txt; sourceTree = "<group>"; };
+		1D3DFC0222956129000C2C49 /* Gyarados.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gyarados.txt; sourceTree = "<group>"; };
+		1D3DFC0322956129000C2C49 /* Squirtle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Squirtle.txt; sourceTree = "<group>"; };
+		1D3DFC0422956129000C2C49 /* Poliwrath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Poliwrath.txt; sourceTree = "<group>"; };
+		1D3DFC052295612A000C2C49 /* NidoranM.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NidoranM.txt; sourceTree = "<group>"; };
+		1D3DFC062295612A000C2C49 /* Paras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Paras.txt; sourceTree = "<group>"; };
+		1D3DFC072295612A000C2C49 /* Pikachu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pikachu.txt; sourceTree = "<group>"; };
+		1D3DFC082295612A000C2C49 /* Psyduck.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Psyduck.txt; sourceTree = "<group>"; };
+		1D3DFC092295612A000C2C49 /* Ninetales.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ninetales.txt; sourceTree = "<group>"; };
+		1D3DFC0A2295612A000C2C49 /* Gengar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gengar.txt; sourceTree = "<group>"; };
+		1D3DFC0B2295612A000C2C49 /* Farfetch'd.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Farfetch'd.txt"; sourceTree = "<group>"; };
+		1D3DFC0C2295612A000C2C49 /* Lickitung.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lickitung.txt; sourceTree = "<group>"; };
+		1D3DFC0D2295612A000C2C49 /* Lapras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lapras.txt; sourceTree = "<group>"; };
+		1D3DFC0E2295612A000C2C49 /* Parasect.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Parasect.txt; sourceTree = "<group>"; };
+		1D3DFC0F2295612A000C2C49 /* Fearow.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fearow.txt; sourceTree = "<group>"; };
+		1D3DFC102295612A000C2C49 /* Diglett.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Diglett.txt; sourceTree = "<group>"; };
+		1D3DFC112295612B000C2C49 /* Persian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Persian.txt; sourceTree = "<group>"; };
+		1D3DFC122295612B000C2C49 /* Shellder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shellder.txt; sourceTree = "<group>"; };
+		1D3DFC132295612B000C2C49 /* Zubat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zubat.txt; sourceTree = "<group>"; };
+		1D3DFC142295612B000C2C49 /* Seel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Seel.txt; sourceTree = "<group>"; };
+		1D3DFC152295612B000C2C49 /* Tangela.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tangela.txt; sourceTree = "<group>"; };
+		1D3DFC162295612B000C2C49 /* Kangaskhan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kangaskhan.txt; sourceTree = "<group>"; };
+		1D3DFC172295612B000C2C49 /* Vulpix.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vulpix.txt; sourceTree = "<group>"; };
+		1D3DFC182295612B000C2C49 /* Machamp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Machamp.txt; sourceTree = "<group>"; };
+		1D3DFC192295612B000C2C49 /* Wartortle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wartortle.txt; sourceTree = "<group>"; };
+		1D3DFC1A2295612C000C2C49 /* Arbok.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arbok.txt; sourceTree = "<group>"; };
+		1D3DFC1B2295612C000C2C49 /* Seadra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Seadra.txt; sourceTree = "<group>"; };
+		1D3DFC1C2295612C000C2C49 /* Moltres.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Moltres.txt; sourceTree = "<group>"; };
+		1D3DFC1D2295612C000C2C49 /* Sandslash.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sandslash.txt; sourceTree = "<group>"; };
+		1D3DFC1E2295612C000C2C49 /* Omastar.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Omastar.txt; sourceTree = "<group>"; };
+		1D3DFC1F2295612C000C2C49 /* Raichu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Raichu.txt; sourceTree = "<group>"; };
+		1D3DFC202295612C000C2C49 /* Magneton.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Magneton.txt; sourceTree = "<group>"; };
+		1D3DFC212295612C000C2C49 /* Jynx.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jynx.txt; sourceTree = "<group>"; };
+		1D3DFC222295612C000C2C49 /* Kadabra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kadabra.txt; sourceTree = "<group>"; };
+		1D3DFC232295612C000C2C49 /* Vaporeon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vaporeon.txt; sourceTree = "<group>"; };
+		1D3DFC242295612D000C2C49 /* Blastoise.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Blastoise.txt; sourceTree = "<group>"; };
+		1D3DFC252295612D000C2C49 /* Articuno.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Articuno.txt; sourceTree = "<group>"; };
+		1D3DFC262295612D000C2C49 /* Vileplume.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vileplume.txt; sourceTree = "<group>"; };
+		1D3DFC272295612D000C2C49 /* Zapdos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zapdos.txt; sourceTree = "<group>"; };
+		1D3DFC282295612D000C2C49 /* Pidgeotto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pidgeotto.txt; sourceTree = "<group>"; };
+		1D3DFC292295612D000C2C49 /* Doduo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doduo.txt; sourceTree = "<group>"; };
+		1D3DFC2A2295612D000C2C49 /* Haunter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Haunter.txt; sourceTree = "<group>"; };
+		1D3DFC2B2295612D000C2C49 /* Graveler.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Graveler.txt; sourceTree = "<group>"; };
+		1D3DFC2C2295612D000C2C49 /* Kakuna.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kakuna.txt; sourceTree = "<group>"; };
+		1D3DFC2D2295612D000C2C49 /* Ivysaur.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ivysaur.txt; sourceTree = "<group>"; };
+		1D3DFC2E2295612D000C2C49 /* Magnemite.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Magnemite.txt; sourceTree = "<group>"; };
+		1D3DFC2F2295612E000C2C49 /* Weedle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Weedle.txt; sourceTree = "<group>"; };
+		1D3DFC302295612E000C2C49 /* Marowak.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Marowak.txt; sourceTree = "<group>"; };
+		1D3DFC312295612E000C2C49 /* Dodrio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dodrio.txt; sourceTree = "<group>"; };
+		1D3DFC322295612E000C2C49 /* Staryu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Staryu.txt; sourceTree = "<group>"; };
+		1D3DFC332295612E000C2C49 /* Tauros.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tauros.txt; sourceTree = "<group>"; };
+		1D3DFC342295612E000C2C49 /* Gloom.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gloom.txt; sourceTree = "<group>"; };
+		1D3DFC352295612E000C2C49 /* Butterfree.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Butterfree.txt; sourceTree = "<group>"; };
+		1D3DFC362295612E000C2C49 /* Dewgong.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dewgong.txt; sourceTree = "<group>"; };
+		1D3DFC372295612E000C2C49 /* Tentacruel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tentacruel.txt; sourceTree = "<group>"; };
+		1D3DFC382295612E000C2C49 /* Abra.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Abra.txt; sourceTree = "<group>"; };
+		1D3DFC392295612E000C2C49 /* Poliwhirl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Poliwhirl.txt; sourceTree = "<group>"; };
+		1D3DFC3A2295612F000C2C49 /* NidoranF.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NidoranF.txt; sourceTree = "<group>"; };
+		1D3DFC3B2295612F000C2C49 /* Slowpoke.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Slowpoke.txt; sourceTree = "<group>"; };
+		1D3DFC3C2295612F000C2C49 /* Goldeen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Goldeen.txt; sourceTree = "<group>"; };
+		1D3DFC3D2295612F000C2C49 /* Charmeleon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Charmeleon.txt; sourceTree = "<group>"; };
+		1D3DFC3E2295612F000C2C49 /* Kabutops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kabutops.txt; sourceTree = "<group>"; };
+		1D3DFC3F2295612F000C2C49 /* Sandshrew.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sandshrew.txt; sourceTree = "<group>"; };
+		1D3DFC402295612F000C2C49 /* Wigglytuff.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wigglytuff.txt; sourceTree = "<group>"; };
+		1D3DFC412295612F000C2C49 /* Weepinbell.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Weepinbell.txt; sourceTree = "<group>"; };
+		1D3DFC422295612F000C2C49 /* Metapod.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Metapod.txt; sourceTree = "<group>"; };
+		1D3DFC432295612F000C2C49 /* Dragonair.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dragonair.txt; sourceTree = "<group>"; };
+		1D3DFC442295612F000C2C49 /* Gastly.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gastly.txt; sourceTree = "<group>"; };
+		1D3DFC4522956130000C2C49 /* Mankey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mankey.txt; sourceTree = "<group>"; };
+		1D3DFC4622956130000C2C49 /* Dugtrio.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dugtrio.txt; sourceTree = "<group>"; };
+		1D3DFC4722956130000C2C49 /* Jigglypuff.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jigglypuff.txt; sourceTree = "<group>"; };
+		1D3DFC4822956130000C2C49 /* Hypno.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hypno.txt; sourceTree = "<group>"; };
+		1D3DFC4922956130000C2C49 /* Beedrill.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Beedrill.txt; sourceTree = "<group>"; };
+		1D3DFC4A22956130000C2C49 /* Meowth.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Meowth.txt; sourceTree = "<group>"; };
+		1D3DFC4B22956130000C2C49 /* Golem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Golem.txt; sourceTree = "<group>"; };
+		1D3DFC4C22956130000C2C49 /* Ponyta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ponyta.txt; sourceTree = "<group>"; };
+		1D3DFC4D22956130000C2C49 /* Snorlax.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snorlax.txt; sourceTree = "<group>"; };
+		1D3DFC4E22956130000C2C49 /* Charmander.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Charmander.txt; sourceTree = "<group>"; };
+		1D3DFC4F22956130000C2C49 /* Jolteon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jolteon.txt; sourceTree = "<group>"; };
+		1D3DFC5022956131000C2C49 /* Grimer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Grimer.txt; sourceTree = "<group>"; };
+		1D3DFC5122956131000C2C49 /* Ekans.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ekans.txt; sourceTree = "<group>"; };
+		1D3DFC5222956131000C2C49 /* Alakazam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alakazam.txt; sourceTree = "<group>"; };
+		1D3DFC5322956131000C2C49 /* Exeggcute.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Exeggcute.txt; sourceTree = "<group>"; };
+		1D3DFC5422956131000C2C49 /* Porygon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Porygon.txt; sourceTree = "<group>"; };
+		1D3DFC5522956131000C2C49 /* Spearow.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spearow.txt; sourceTree = "<group>"; };
+		1D3DFC5622956131000C2C49 /* Hitmonlee.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hitmonlee.txt; sourceTree = "<group>"; };
+		1D3DFC5722956131000C2C49 /* Nidorino.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nidorino.txt; sourceTree = "<group>"; };
+		1D3DFC5822956131000C2C49 /* Voltorb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Voltorb.txt; sourceTree = "<group>"; };
+		1D3DFC5922956131000C2C49 /* Growlithe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Growlithe.txt; sourceTree = "<group>"; };
+		1D3DFC5A22956131000C2C49 /* Koffing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Koffing.txt; sourceTree = "<group>"; };
+		1D3DFC5B22956132000C2C49 /* Kabuto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kabuto.txt; sourceTree = "<group>"; };
+		1D3DFC5C22956132000C2C49 /* Rhydon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rhydon.txt; sourceTree = "<group>"; };
+		1D3DFC5D22956132000C2C49 /* Horsea.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Horsea.txt; sourceTree = "<group>"; };
+		1D3DFC5E22956132000C2C49 /* Nidoqueen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nidoqueen.txt; sourceTree = "<group>"; };
+		1D3DFC5F22956132000C2C49 /* Muk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Muk.txt; sourceTree = "<group>"; };
+		1D3DFC6022956132000C2C49 /* Eevee.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eevee.txt; sourceTree = "<group>"; };
+		1D3DFC6122956132000C2C49 /* Drowzee.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Drowzee.txt; sourceTree = "<group>"; };
+		1D3DFC6222956132000C2C49 /* Krabby.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Krabby.txt; sourceTree = "<group>"; };
+		1D3DFC6322956132000C2C49 /* Geodude.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Geodude.txt; sourceTree = "<group>"; };
+		1D3DFC6422956132000C2C49 /* Cloyster.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cloyster.txt; sourceTree = "<group>"; };
+		1D3DFC6522956132000C2C49 /* Golduck.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Golduck.txt; sourceTree = "<group>"; };
+		1D3DFC6622956133000C2C49 /* Victreebell.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Victreebell.txt; sourceTree = "<group>"; };
+		1D3DFC6722956133000C2C49 /* Arcanine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arcanine.txt; sourceTree = "<group>"; };
+		1D3DFC6822956133000C2C49 /* Pidgeot.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pidgeot.txt; sourceTree = "<group>"; };
+		1D3DFC6922956133000C2C49 /* Rapidash.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rapidash.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -540,6 +842,157 @@
 		1D3DFBD02294C688000C2C49 /* Descriptions */ = {
 			isa = PBXGroup;
 			children = (
+				1D3DFC382295612E000C2C49 /* Abra.txt */,
+				1D3DFBEC22956127000C2C49 /* Aerodactyl.txt */,
+				1D3DFC5222956131000C2C49 /* Alakazam.txt */,
+				1D3DFC1A2295612C000C2C49 /* Arbok.txt */,
+				1D3DFC6722956133000C2C49 /* Arcanine.txt */,
+				1D3DFC252295612D000C2C49 /* Articuno.txt */,
+				1D3DFC4922956130000C2C49 /* Beedrill.txt */,
+				1D3DFBFA22956129000C2C49 /* Bellsprout.txt */,
+				1D3DFC242295612D000C2C49 /* Blastoise.txt */,
+				1D3DFBE622956127000C2C49 /* Bulbasaur.txt */,
+				1D3DFC352295612E000C2C49 /* Butterfree.txt */,
+				1D3DFBE322956127000C2C49 /* Caterpie.txt */,
+				1D3DFBF522956128000C2C49 /* Chansey.txt */,
+				1D3DFBF822956128000C2C49 /* Charizard.txt */,
+				1D3DFC4E22956130000C2C49 /* Charmander.txt */,
+				1D3DFC3D2295612F000C2C49 /* Charmeleon.txt */,
+				1D3DFBDB22956126000C2C49 /* Clefable.txt */,
+				1D3DFBD722956126000C2C49 /* Clefairy.txt */,
+				1D3DFC6422956132000C2C49 /* Cloyster.txt */,
+				1D3DFBFE22956129000C2C49 /* Cubone.txt */,
+				1D3DFC362295612E000C2C49 /* Dewgong.txt */,
+				1D3DFC102295612A000C2C49 /* Diglett.txt */,
+				1D3DFBDD22956126000C2C49 /* Ditto.txt */,
+				1D3DFC312295612E000C2C49 /* Dodrio.txt */,
+				1D3DFC292295612D000C2C49 /* Doduo.txt */,
+				1D3DFC432295612F000C2C49 /* Dragonair.txt */,
+				1D3DFBE122956127000C2C49 /* Dragonite.txt */,
+				1D3DFBF322956128000C2C49 /* Dratini.txt */,
+				1D3DFC6122956132000C2C49 /* Drowzee.txt */,
+				1D3DFC4622956130000C2C49 /* Dugtrio.txt */,
+				1D3DFC6022956132000C2C49 /* Eevee.txt */,
+				1D3DFC5122956131000C2C49 /* Ekans.txt */,
+				1D3DFBEB22956127000C2C49 /* Electabuzz.txt */,
+				1D3DFBF122956128000C2C49 /* Electrode.txt */,
+				1D3DFC5322956131000C2C49 /* Exeggcute.txt */,
+				1D3DFBD522956126000C2C49 /* Exeggutor.txt */,
+				1D3DFC0B2295612A000C2C49 /* Farfetch'd.txt */,
+				1D3DFC0F2295612A000C2C49 /* Fearow.txt */,
+				1D3DFBE522956127000C2C49 /* Flareon.txt */,
+				1D3DFC442295612F000C2C49 /* Gastly.txt */,
+				1D3DFC0A2295612A000C2C49 /* Gengar.txt */,
+				1D3DFC6322956132000C2C49 /* Geodude.txt */,
+				1D3DFC342295612E000C2C49 /* Gloom.txt */,
+				1D3DFBF022956128000C2C49 /* Golbat.txt */,
+				1D3DFC3C2295612F000C2C49 /* Goldeen.txt */,
+				1D3DFC6522956132000C2C49 /* Golduck.txt */,
+				1D3DFC4B22956130000C2C49 /* Golem.txt */,
+				1D3DFC2B2295612D000C2C49 /* Graveler.txt */,
+				1D3DFC5022956131000C2C49 /* Grimer.txt */,
+				1D3DFC5922956131000C2C49 /* Growlithe.txt */,
+				1D3DFC0222956129000C2C49 /* Gyarados.txt */,
+				1D3DFC2A2295612D000C2C49 /* Haunter.txt */,
+				1D3DFBF622956128000C2C49 /* Hitmonchan.txt */,
+				1D3DFC5622956131000C2C49 /* Hitmonlee.txt */,
+				1D3DFC5D22956132000C2C49 /* Horsea.txt */,
+				1D3DFC4822956130000C2C49 /* Hypno.txt */,
+				1D3DFC2D2295612D000C2C49 /* Ivysaur.txt */,
+				1D3DFC4722956130000C2C49 /* Jigglypuff.txt */,
+				1D3DFC4F22956130000C2C49 /* Jolteon.txt */,
+				1D3DFC212295612C000C2C49 /* Jynx.txt */,
+				1D3DFC5B22956132000C2C49 /* Kabuto.txt */,
+				1D3DFC3E2295612F000C2C49 /* Kabutops.txt */,
+				1D3DFC222295612C000C2C49 /* Kadabra.txt */,
+				1D3DFC2C2295612D000C2C49 /* Kakuna.txt */,
+				1D3DFC162295612B000C2C49 /* Kangaskhan.txt */,
+				1D3DFBE722956127000C2C49 /* Kingler.txt */,
+				1D3DFC5A22956131000C2C49 /* Koffing.txt */,
+				1D3DFC6222956132000C2C49 /* Krabby.txt */,
+				1D3DFC0D2295612A000C2C49 /* Lapras.txt */,
+				1D3DFC0C2295612A000C2C49 /* Lickitung.txt */,
+				1D3DFC182295612B000C2C49 /* Machamp.txt */,
+				1D3DFBEE22956127000C2C49 /* Machoke.txt */,
+				1D3DFBD322956126000C2C49 /* Machop.txt */,
+				1D3DFBE222956127000C2C49 /* Magikarp.txt */,
+				1D3DFBFF22956129000C2C49 /* Magmar.txt */,
+				1D3DFC2E2295612D000C2C49 /* Magnemite.txt */,
+				1D3DFC202295612C000C2C49 /* Magneton.txt */,
+				1D3DFC4522956130000C2C49 /* Mankey.txt */,
+				1D3DFC302295612E000C2C49 /* Marowak.txt */,
+				1D3DFC4A22956130000C2C49 /* Meowth.txt */,
+				1D3DFC422295612F000C2C49 /* Metapod.txt */,
+				1D3DFBE822956127000C2C49 /* Mew.txt */,
+				1D3DFBE422956127000C2C49 /* Mewtwo.txt */,
+				1D3DFC1C2295612C000C2C49 /* Moltres.txt */,
+				1D3DFBE022956126000C2C49 /* Mr.Mime.txt */,
+				1D3DFC5F22956132000C2C49 /* Muk.txt */,
+				1D3DFBF922956128000C2C49 /* Nidoking.txt */,
+				1D3DFC5E22956132000C2C49 /* Nidoqueen.txt */,
+				1D3DFC3A2295612F000C2C49 /* NidoranF.txt */,
+				1D3DFC052295612A000C2C49 /* NidoranM.txt */,
+				1D3DFBEF22956128000C2C49 /* Nidorina.txt */,
+				1D3DFC5722956131000C2C49 /* Nidorino.txt */,
+				1D3DFC092295612A000C2C49 /* Ninetales.txt */,
+				1D3DFBFC22956129000C2C49 /* Oddish.txt */,
+				1D3DFBED22956127000C2C49 /* Omanyte.txt */,
+				1D3DFC1E2295612C000C2C49 /* Omastar.txt */,
+				1D3DFC0022956129000C2C49 /* Onix.txt */,
+				1D3DFC062295612A000C2C49 /* Paras.txt */,
+				1D3DFC0E2295612A000C2C49 /* Parasect.txt */,
+				1D3DFC112295612B000C2C49 /* Persian.txt */,
+				1D3DFC6822956133000C2C49 /* Pidgeot.txt */,
+				1D3DFC282295612D000C2C49 /* Pidgeotto.txt */,
+				1D3DFBDA22956126000C2C49 /* Pidgey.txt */,
+				1D3DFC072295612A000C2C49 /* Pikachu.txt */,
+				1D3DFBF722956128000C2C49 /* Pinsir.txt */,
+				1D3DFBD822956126000C2C49 /* Poliwag.txt */,
+				1D3DFC392295612E000C2C49 /* Poliwhirl.txt */,
+				1D3DFC0422956129000C2C49 /* Poliwrath.txt */,
+				1D3DFC4C22956130000C2C49 /* Ponyta.txt */,
+				1D3DFC5422956131000C2C49 /* Porygon.txt */,
+				1D3DFBD922956126000C2C49 /* Primeape.txt */,
+				1D3DFC082295612A000C2C49 /* Psyduck.txt */,
+				1D3DFC1F2295612C000C2C49 /* Raichu.txt */,
+				1D3DFC6922956133000C2C49 /* Rapidash.txt */,
+				1D3DFBEA22956127000C2C49 /* Raticate.txt */,
+				1D3DFBFD22956129000C2C49 /* Rattata.txt */,
+				1D3DFC5C22956132000C2C49 /* Rhydon.txt */,
+				1D3DFBF222956128000C2C49 /* Rhyhorn.txt */,
+				1D3DFC3F2295612F000C2C49 /* Sandshrew.txt */,
+				1D3DFC1D2295612C000C2C49 /* Sandslash.txt */,
+				1D3DFBDE22956126000C2C49 /* Scyther.txt */,
+				1D3DFC1B2295612C000C2C49 /* Seadra.txt */,
+				1D3DFC0122956129000C2C49 /* Seaking.txt */,
+				1D3DFC142295612B000C2C49 /* Seel.txt */,
+				1D3DFC122295612B000C2C49 /* Shellder.txt */,
+				1D3DFBFB22956129000C2C49 /* Slowbro.txt */,
+				1D3DFC3B2295612F000C2C49 /* Slowpoke.txt */,
+				1D3DFC4D22956130000C2C49 /* Snorlax.txt */,
+				1D3DFC5522956131000C2C49 /* Spearow.txt */,
+				1D3DFC0322956129000C2C49 /* Squirtle.txt */,
+				1D3DFBD422956126000C2C49 /* Starmie.txt */,
+				1D3DFC322295612E000C2C49 /* Staryu.txt */,
+				1D3DFC152295612B000C2C49 /* Tangela.txt */,
+				1D3DFC332295612E000C2C49 /* Tauros.txt */,
+				1D3DFBF422956128000C2C49 /* Tentacool.txt */,
+				1D3DFC372295612E000C2C49 /* Tentacruel.txt */,
+				1D3DFC232295612C000C2C49 /* Vaporeon.txt */,
+				1D3DFBE922956127000C2C49 /* Venomoth.txt */,
+				1D3DFBDF22956126000C2C49 /* Venonat.txt */,
+				1D3DFBDC22956126000C2C49 /* Venusaur.txt */,
+				1D3DFC6622956133000C2C49 /* Victreebell.txt */,
+				1D3DFC262295612D000C2C49 /* Vileplume.txt */,
+				1D3DFC5822956131000C2C49 /* Voltorb.txt */,
+				1D3DFC172295612B000C2C49 /* Vulpix.txt */,
+				1D3DFC192295612B000C2C49 /* Wartortle.txt */,
+				1D3DFC2F2295612E000C2C49 /* Weedle.txt */,
+				1D3DFC412295612F000C2C49 /* Weepinbell.txt */,
+				1D3DFBD622956126000C2C49 /* Weezing.txt */,
+				1D3DFC402295612F000C2C49 /* Wigglytuff.txt */,
+				1D3DFC272295612D000C2C49 /* Zapdos.txt */,
+				1D3DFC132295612B000C2C49 /* Zubat.txt */,
 				1D3DFBD12294C6A5000C2C49 /* Bulbasaur.txt */,
 			);
 			path = Descriptions;
@@ -603,107 +1056,207 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3DFC7A22956133000C2C49 /* Caterpie.txt in Resources */,
 				1D12F7922294B71500060D75 /* Paras.wav in Resources */,
+				1D3DFCBA22956133000C2C49 /* Vaporeon.txt in Resources */,
 				1D12F7712294B71500060D75 /* Mew.wav in Resources */,
 				1D12F78C2294B71500060D75 /* Kangaskhan.wav in Resources */,
 				1D12F7492294B71500060D75 /* Magmar.wav in Resources */,
+				1D3DFCA522956133000C2C49 /* Parasect.txt in Resources */,
 				1D12F77B2294B71500060D75 /* Omastar.wav in Resources */,
+				1D3DFCC222956133000C2C49 /* Graveler.txt in Resources */,
 				1D12F7C52294B71500060D75 /* Snorlax.wav in Resources */,
+				1D3DFCD422956133000C2C49 /* Charmeleon.txt in Resources */,
+				1D3DFCF522956133000C2C49 /* Nidoqueen.txt in Resources */,
+				1D3DFCF622956133000C2C49 /* Muk.txt in Resources */,
+				1D3DFC9422956133000C2C49 /* Rattata.txt in Resources */,
 				1D12F7762294B71500060D75 /* Pikachu.wav in Resources */,
 				1D12F7BC2294B71500060D75 /* Dragonite.wav in Resources */,
 				1D12F76B2294B71500060D75 /* Scyther.wav in Resources */,
+				1D3DFCF222956133000C2C49 /* Kabuto.txt in Resources */,
+				1D3DFC8622956133000C2C49 /* Nidorina.txt in Resources */,
 				1D12F7A22294B71500060D75 /* Nidoqueen.wav in Resources */,
+				1D3DFCC922956133000C2C49 /* Staryu.txt in Resources */,
 				1D12F7CC2294B71500060D75 /* Venonat.wav in Resources */,
+				1D3DFD0022956133000C2C49 /* Rapidash.txt in Resources */,
+				1D3DFC7D22956133000C2C49 /* Bulbasaur.txt in Resources */,
+				1D3DFCB522956133000C2C49 /* Omastar.txt in Resources */,
 				1D12F74F2294B71500060D75 /* Vulpix.wav in Resources */,
+				1D3DFCA122956133000C2C49 /* Gengar.txt in Resources */,
+				1D3DFCA022956133000C2C49 /* Ninetales.txt in Resources */,
+				1D3DFCE622956133000C2C49 /* Jolteon.txt in Resources */,
+				1D3DFC9622956133000C2C49 /* Magmar.txt in Resources */,
 				1D12F7752294B71500060D75 /* Tentacruel.wav in Resources */,
+				1D3DFC8C22956133000C2C49 /* Chansey.txt in Resources */,
+				1D3DFC8B22956133000C2C49 /* Tentacool.txt in Resources */,
 				1D12F7622294B71500060D75 /* Exeggcute.wav in Resources */,
+				1D3DFCAC22956133000C2C49 /* Tangela.txt in Resources */,
+				1D3DFC9522956133000C2C49 /* Cubone.txt in Resources */,
+				1D3DFCC122956133000C2C49 /* Haunter.txt in Resources */,
+				1D3DFCD322956133000C2C49 /* Goldeen.txt in Resources */,
 				1D12F75E2294B71500060D75 /* Gastly.wav in Resources */,
+				1D3DFC9A22956133000C2C49 /* Squirtle.txt in Resources */,
 				1D12F79D2294B71500060D75 /* Seaking.wav in Resources */,
+				1D3DFC7F22956133000C2C49 /* Mew.txt in Resources */,
+				1D3DFCC022956133000C2C49 /* Doduo.txt in Resources */,
 				1D12F7BD2294B71500060D75 /* Poliwag.wav in Resources */,
 				1D12F77A2294B71500060D75 /* Slowpoke.wav in Resources */,
+				1D3DFC8422956133000C2C49 /* Omanyte.txt in Resources */,
+				1D3DFCDC22956133000C2C49 /* Mankey.txt in Resources */,
+				1D3DFCFE22956133000C2C49 /* Arcanine.txt in Resources */,
 				1D12F78F2294B71500060D75 /* Nidorina.wav in Resources */,
 				1D12F7C22294B71500060D75 /* Raticate.wav in Resources */,
 				1D12F75A2294B71500060D75 /* Ivysaur.wav in Resources */,
+				1D3DFCA622956133000C2C49 /* Fearow.txt in Resources */,
+				1D3DFCC522956133000C2C49 /* Magnemite.txt in Resources */,
 				1D12F7652294B71500060D75 /* Rhydon.wav in Resources */,
+				1D3DFCD922956133000C2C49 /* Metapod.txt in Resources */,
+				1D3DFC9822956133000C2C49 /* Seaking.txt in Resources */,
 				1D12F7992294B71500060D75 /* Dratini.wav in Resources */,
 				1D12F7532294B71500060D75 /* Exeggutor.wav in Resources */,
 				1D12F6A32292C12B00060D75 /* LaunchScreen.storyboard in Resources */,
 				1D12F7722294B71500060D75 /* Vaporeon.wav in Resources */,
+				1D3DFC6B22956133000C2C49 /* Starmie.txt in Resources */,
 				1D12F6A02292C12B00060D75 /* Assets.xcassets in Resources */,
 				1D12F77F2294B71500060D75 /* Rapidash.wav in Resources */,
+				1D3DFC8822956133000C2C49 /* Electrode.txt in Resources */,
 				1D12F78D2294B71500060D75 /* Marowak.wav in Resources */,
+				1D3DFC6F22956133000C2C49 /* Poliwag.txt in Resources */,
+				1D3DFC8222956133000C2C49 /* Electabuzz.txt in Resources */,
 				1D12F7AF2294B71500060D75 /* Chansey.wav in Resources */,
 				1D12F7A72294B71500060D75 /* Machamp.wav in Resources */,
 				1D12F7AC2294B71500060D75 /* Ditto.wav in Resources */,
 				1D12F7BA2294B71500060D75 /* Magneton.wav in Resources */,
+				1D3DFC8722956133000C2C49 /* Golbat.txt in Resources */,
 				1D12F7BB2294B71500060D75 /* Wigglytuff.wav in Resources */,
 				1D12F7AA2294B71500060D75 /* Zapdos.wav in Resources */,
 				1D12F7862294B71500060D75 /* Kingler.wav in Resources */,
+				1D3DFCA822956133000C2C49 /* Persian.txt in Resources */,
 				1D12F7DE2294B71500060D75 /* Flareon.wav in Resources */,
 				1D12F7A32294B71500060D75 /* Primeape.wav in Resources */,
+				1D3DFC6A22956133000C2C49 /* Machop.txt in Resources */,
+				1D3DFCB122956133000C2C49 /* Arbok.txt in Resources */,
 				1D12F7CF2294B71500060D75 /* Arbok.wav in Resources */,
+				1D3DFCE722956133000C2C49 /* Grimer.txt in Resources */,
 				1D12F7612294B71500060D75 /* Onix.wav in Resources */,
 				1D12F79B2294B71500060D75 /* Psyduck.wav in Resources */,
 				1D12F7742294B71500060D75 /* Jynx.wav in Resources */,
+				1D3DFC9F22956133000C2C49 /* Psyduck.txt in Resources */,
 				1D12F75D2294B71500060D75 /* Seel.wav in Resources */,
+				1D3DFC9222956133000C2C49 /* Slowbro.txt in Resources */,
+				1D3DFC9D22956133000C2C49 /* Paras.txt in Resources */,
 				1D12F7D12294B71500060D75 /* Goldeen.wav in Resources */,
 				1D12F7732294B71500060D75 /* Zubat.wav in Resources */,
 				1D12F7602294B71500060D75 /* Doduo.wav in Resources */,
+				1D3DFCEF22956133000C2C49 /* Voltorb.txt in Resources */,
+				1D3DFCDF22956133000C2C49 /* Hypno.txt in Resources */,
 				1D12F7552294B71500060D75 /* Charmeleon.wav in Resources */,
+				1D3DFC7722956133000C2C49 /* Mr.Mime.txt in Resources */,
 				1D12F77E2294B71500060D75 /* NidoranF.wav in Resources */,
 				1D3DFBCF2294B99D000C2C49 /* Default-568h@2x.png in Resources */,
 				1D12F69E2292C12A00060D75 /* Main.storyboard in Resources */,
 				1D12F76C2294B71500060D75 /* Eevee.wav in Resources */,
 				1D12F7A02294B71500060D75 /* Haunter.wav in Resources */,
+				1D3DFCC722956133000C2C49 /* Marowak.txt in Resources */,
+				1D3DFCD522956133000C2C49 /* Kabutops.txt in Resources */,
 				1D12F7C12294B71500060D75 /* Machop.wav in Resources */,
+				1D3DFC7022956133000C2C49 /* Primeape.txt in Resources */,
+				1D3DFCA922956133000C2C49 /* Shellder.txt in Resources */,
 				1D12F7642294B71500060D75 /* Wartortle.wav in Resources */,
 				1D12F78B2294B71500060D75 /* Dragonair.wav in Resources */,
+				1D3DFCB622956133000C2C49 /* Raichu.txt in Resources */,
+				1D3DFCBB22956133000C2C49 /* Blastoise.txt in Resources */,
+				1D3DFCE922956133000C2C49 /* Alakazam.txt in Resources */,
+				1D3DFCC422956133000C2C49 /* Ivysaur.txt in Resources */,
 				1D12F79C2294B71500060D75 /* Parasect.wav in Resources */,
+				1D3DFC9922956133000C2C49 /* Gyarados.txt in Resources */,
 				1D12F7AE2294B71500060D75 /* Charmander.wav in Resources */,
+				1D3DFCCD22956133000C2C49 /* Dewgong.txt in Resources */,
 				1D12F7B82294B71500060D75 /* Oddish.wav in Resources */,
+				1D3DFCEB22956133000C2C49 /* Porygon.txt in Resources */,
+				1D3DFCB022956133000C2C49 /* Wartortle.txt in Resources */,
+				1D3DFC8922956133000C2C49 /* Rhyhorn.txt in Resources */,
 				1D12F7B72294B71500060D75 /* Vileplume.wav in Resources */,
+				1D3DFCF722956133000C2C49 /* Eevee.txt in Resources */,
 				1D12F7A62294B71500060D75 /* Farfetch'd.wav in Resources */,
 				1D12F7512294B71500060D75 /* Venusaur.wav in Resources */,
+				1D3DFC9022956133000C2C49 /* Nidoking.txt in Resources */,
+				1D3DFCE222956133000C2C49 /* Golem.txt in Resources */,
+				1D3DFC7922956133000C2C49 /* Magikarp.txt in Resources */,
 				1D12F7522294B71500060D75 /* Cubone.wav in Resources */,
+				1D3DFCB222956133000C2C49 /* Seadra.txt in Resources */,
+				1D3DFCFA22956133000C2C49 /* Geodude.txt in Resources */,
 				1D12F7772294B71500060D75 /* Gengar.wav in Resources */,
 				1D12F7D22294B71500060D75 /* Poliwrath.wav in Resources */,
 				1D12F7582294B71500060D75 /* Kadabra.wav in Resources */,
 				1D12F7B02294B71500060D75 /* Bellsprout.wav in Resources */,
+				1D3DFCD122956133000C2C49 /* NidoranF.txt in Resources */,
+				1D3DFC7122956133000C2C49 /* Pidgey.txt in Resources */,
+				1D3DFCD722956133000C2C49 /* Wigglytuff.txt in Resources */,
+				1D3DFCEA22956133000C2C49 /* Exeggcute.txt in Resources */,
+				1D3DFCDA22956133000C2C49 /* Dragonair.txt in Resources */,
 				1D12F7682294B71500060D75 /* Jolteon.wav in Resources */,
 				1D12F7AB2294B71500060D75 /* Seadra.wav in Resources */,
 				1D12F7DC2294B71500060D75 /* Gyarados.wav in Resources */,
+				1D3DFCD222956133000C2C49 /* Slowpoke.txt in Resources */,
+				1D3DFCB322956133000C2C49 /* Moltres.txt in Resources */,
 				1D12F7A92294B71500060D75 /* Kabutops.wav in Resources */,
 				1D12F74D2294B71500060D75 /* Lickitung.wav in Resources */,
+				1D3DFCEC22956133000C2C49 /* Spearow.txt in Resources */,
 				1D12F7A42294B71500060D75 /* Hitmonlee.wav in Resources */,
 				1D12F7662294B71500060D75 /* Blastoise.wav in Resources */,
 				1D12F7DA2294B71500060D75 /* Sandshrew.wav in Resources */,
+				1D3DFCB822956133000C2C49 /* Jynx.txt in Resources */,
+				1D3DFC8E22956133000C2C49 /* Pinsir.txt in Resources */,
 				1D12F7DB2294B71500060D75 /* Tentacool.wav in Resources */,
 				1D12F7D62294B71500060D75 /* Fearow.wav in Resources */,
 				1D12F7D52294B71500060D75 /* Growlithe.wav in Resources */,
+				1D3DFC7B22956133000C2C49 /* Mewtwo.txt in Resources */,
+				1D3DFC7C22956133000C2C49 /* Flareon.txt in Resources */,
 				1D12F79A2294B71500060D75 /* Nidoking.wav in Resources */,
 				1D12F7D02294B71500060D75 /* Squirtle.wav in Resources */,
 				1D12F7B32294B71500060D75 /* Venomoth.wav in Resources */,
+				1D3DFCAF22956133000C2C49 /* Machamp.txt in Resources */,
+				1D3DFCD622956133000C2C49 /* Sandshrew.txt in Resources */,
 				1D12F7832294B71500060D75 /* Ninetales.wav in Resources */,
 				1D12F7B92294B71500060D75 /* Sandslash.wav in Resources */,
+				1D3DFCB722956133000C2C49 /* Magneton.txt in Resources */,
+				1D3DFCAE22956133000C2C49 /* Vulpix.txt in Resources */,
 				1D12F76D2294B71500060D75 /* Machoke.wav in Resources */,
 				1D12F7592294B71500060D75 /* Jigglypuff.wav in Resources */,
 				1D12F76F2294B71500060D75 /* Tangela.wav in Resources */,
 				1D12F7C82294B71500060D75 /* Metapod.wav in Resources */,
+				1D3DFCFF22956133000C2C49 /* Pidgeot.txt in Resources */,
+				1D3DFCC822956133000C2C49 /* Dodrio.txt in Resources */,
+				1D3DFCA322956133000C2C49 /* Lickitung.txt in Resources */,
 				1D12F7632294B71500060D75 /* Weepinbell.wav in Resources */,
+				1D3DFCAB22956133000C2C49 /* Seel.txt in Resources */,
+				1D3DFC9E22956133000C2C49 /* Pikachu.txt in Resources */,
+				1D3DFC7422956133000C2C49 /* Ditto.txt in Resources */,
+				1D3DFC6C22956133000C2C49 /* Exeggutor.txt in Resources */,
 				1D12F7842294B71500060D75 /* Drowzee.wav in Resources */,
 				1D12F7D92294B71500060D75 /* Rhyhorn.wav in Resources */,
 				1D12F7932294B71500060D75 /* Arcanine.wav in Resources */,
 				1D12F7B42294B71500060D75 /* Dewgong.wav in Resources */,
 				1D12F75F2294B71500060D75 /* Alakazam.wav in Resources */,
+				1D3DFC8A22956133000C2C49 /* Dratini.txt in Resources */,
+				1D3DFCE522956133000C2C49 /* Charmander.txt in Resources */,
 				1D12F7C42294B71500060D75 /* Articuno.wav in Resources */,
+				1D3DFCF822956133000C2C49 /* Drowzee.txt in Resources */,
+				1D3DFCE422956133000C2C49 /* Snorlax.txt in Resources */,
 				1D12F7822294B71500060D75 /* Koffing.wav in Resources */,
+				1D3DFCFC22956133000C2C49 /* Golduck.txt in Resources */,
 				1D12F7CA2294B71500060D75 /* Voltorb.wav in Resources */,
 				1D12F7C02294B71500060D75 /* Spearow.wav in Resources */,
+				1D3DFCBC22956133000C2C49 /* Articuno.txt in Resources */,
 				1D12F7872294B71500060D75 /* Diglett.wav in Resources */,
 				1D12F75C2294B71500060D75 /* Dugtrio.wav in Resources */,
+				1D3DFCA722956133000C2C49 /* Diglett.txt in Resources */,
 				1D12F7782294B71500060D75 /* Magnemite.wav in Resources */,
 				1D12F7AD2294B71500060D75 /* Electabuzz.wav in Resources */,
+				1D3DFC7822956133000C2C49 /* Dragonite.txt in Resources */,
 				1D12F7892294B71500060D75 /* Poliwhirl.wav in Resources */,
+				1D3DFCAD22956133000C2C49 /* Kangaskhan.txt in Resources */,
 				1D12F7D42294B71500060D75 /* Cloyster.wav in Resources */,
 				1D12F78E2294B71500060D75 /* Geodude.wav in Resources */,
 				1D12F74C2294B71500060D75 /* NidoranM.wav in Resources */,
@@ -711,42 +1264,89 @@
 				1D12F7942294B71500060D75 /* Pidgeotto.wav in Resources */,
 				1D12F7B12294B71500060D75 /* Rattata.wav in Resources */,
 				1D12F7B52294B71500060D75 /* Magikarp.wav in Resources */,
+				1D3DFC8322956133000C2C49 /* Aerodactyl.txt in Resources */,
 				1D12F76E2294B71500060D75 /* Caterpie.wav in Resources */,
 				1D12F79E2294B71500060D75 /* Krabby.wav in Resources */,
 				1D12F7542294B71500060D75 /* Nidorino.wav in Resources */,
+				1D3DFC9B22956133000C2C49 /* Poliwrath.txt in Resources */,
+				1D3DFCCF22956133000C2C49 /* Abra.txt in Resources */,
+				1D3DFC6D22956133000C2C49 /* Weezing.txt in Resources */,
 				1D12F7B62294B71500060D75 /* Pinsir.wav in Resources */,
+				1D3DFCE322956133000C2C49 /* Ponyta.txt in Resources */,
+				1D3DFC6E22956133000C2C49 /* Clefairy.txt in Resources */,
 				1D12F7882294B71500060D75 /* Staryu.wav in Resources */,
 				1D12F7562294B71500060D75 /* Electrode.wav in Resources */,
+				1D3DFCBF22956133000C2C49 /* Pidgeotto.txt in Resources */,
 				1D12F7DD2294B71500060D75 /* Weezing.wav in Resources */,
 				1D12F7A52294B71500060D75 /* Victreebel.wav in Resources */,
+				1D3DFCA422956133000C2C49 /* Lapras.txt in Resources */,
 				1D12F7852294B71500060D75 /* Persian.wav in Resources */,
+				1D3DFCF422956133000C2C49 /* Horsea.txt in Resources */,
+				1D3DFCE122956133000C2C49 /* Meowth.txt in Resources */,
+				1D3DFCD822956133000C2C49 /* Weepinbell.txt in Resources */,
+				1D3DFCF922956133000C2C49 /* Krabby.txt in Resources */,
 				1D12F7972294B71500060D75 /* Abra.wav in Resources */,
+				1D3DFCC622956133000C2C49 /* Weedle.txt in Resources */,
 				1D12F7502294B71500060D75 /* Golbat.wav in Resources */,
+				1D3DFCF022956133000C2C49 /* Growlithe.txt in Resources */,
+				1D3DFCFB22956133000C2C49 /* Cloyster.txt in Resources */,
 				1D12F7482294B71500060D75 /* Beedrill.wav in Resources */,
 				1D12F7802294B71500060D75 /* Grimer.wav in Resources */,
+				1D3DFC9722956133000C2C49 /* Onix.txt in Resources */,
 				1D12F74E2294B71500060D75 /* Ekans.wav in Resources */,
 				1D12F75B2294B71500060D75 /* Shellder.wav in Resources */,
 				1D12F7C62294B71500060D75 /* Horsea.wav in Resources */,
+				1D3DFC8022956133000C2C49 /* Venomoth.txt in Resources */,
 				1D12F7C72294B71500060D75 /* Raichu.wav in Resources */,
+				1D3DFCE822956133000C2C49 /* Ekans.txt in Resources */,
 				1D12F7A82294B71500060D75 /* Charizard.wav in Resources */,
+				1D3DFC9C22956133000C2C49 /* NidoranM.txt in Resources */,
+				1D3DFCDB22956133000C2C49 /* Gastly.txt in Resources */,
 				1D12F74A2294B71500060D75 /* Hitmonchan.wav in Resources */,
+				1D3DFC7322956133000C2C49 /* Venusaur.txt in Resources */,
+				1D3DFCBE22956133000C2C49 /* Zapdos.txt in Resources */,
+				1D3DFCA222956133000C2C49 /* Farfetch'd.txt in Resources */,
+				1D3DFCDE22956133000C2C49 /* Jigglypuff.txt in Resources */,
 				1D12F7952294B71500060D75 /* Meowth.wav in Resources */,
+				1D3DFCF322956133000C2C49 /* Rhydon.txt in Resources */,
+				1D3DFCCB22956133000C2C49 /* Gloom.txt in Resources */,
+				1D3DFC8122956133000C2C49 /* Raticate.txt in Resources */,
+				1D3DFC9322956133000C2C49 /* Oddish.txt in Resources */,
 				1D12F7C32294B71500060D75 /* Lapras.wav in Resources */,
 				1D12F7902294B71500060D75 /* Ponyta.wav in Resources */,
 				1D12F7812294B71500060D75 /* Clefairy.wav in Resources */,
 				1D12F77C2294B71500060D75 /* Mewtwo.wav in Resources */,
+				1D3DFCC322956133000C2C49 /* Kakuna.txt in Resources */,
+				1D3DFC9122956133000C2C49 /* Bellsprout.txt in Resources */,
 				1D12F7912294B71500060D75 /* Gloom.wav in Resources */,
+				1D3DFCBD22956133000C2C49 /* Vileplume.txt in Resources */,
 				1D12F7D72294B71500060D75 /* Kabuto.wav in Resources */,
+				1D3DFCE022956133000C2C49 /* Beedrill.txt in Resources */,
 				1D12F76A2294B71500060D75 /* Dodrio.wav in Resources */,
+				1D3DFC8D22956133000C2C49 /* Hitmonchan.txt in Resources */,
+				1D3DFCCA22956133000C2C49 /* Tauros.txt in Resources */,
 				1D12F7B22294B71500060D75 /* Omanyte.wav in Resources */,
+				1D3DFCEE22956133000C2C49 /* Nidorino.txt in Resources */,
+				1D3DFCB922956133000C2C49 /* Kadabra.txt in Resources */,
 				1D12F7D82294B71500060D75 /* Porygon.wav in Resources */,
+				1D3DFCED22956133000C2C49 /* Hitmonlee.txt in Resources */,
 				1D12F7702294B71500060D75 /* Mankey.wav in Resources */,
+				1D3DFCF122956133000C2C49 /* Koffing.txt in Resources */,
 				1D12F7BF2294B71500060D75 /* Pidgey.wav in Resources */,
+				1D3DFC7622956133000C2C49 /* Venonat.txt in Resources */,
 				1D12F7572294B71500060D75 /* Moltres.wav in Resources */,
+				1D3DFCAA22956133000C2C49 /* Zubat.txt in Resources */,
+				1D3DFC7222956133000C2C49 /* Clefable.txt in Resources */,
+				1D3DFCDD22956133000C2C49 /* Dugtrio.txt in Resources */,
+				1D3DFCD022956133000C2C49 /* Poliwhirl.txt in Resources */,
 				1D12F7CD2294B71500060D75 /* Aerodactyl.wav in Resources */,
 				1D12F7962294B71500060D75 /* Weedle.wav in Resources */,
+				1D3DFCB422956133000C2C49 /* Sandslash.txt in Resources */,
 				1D12F7CE2294B71500060D75 /* Golduck.wav in Resources */,
+				1D3DFC8F22956133000C2C49 /* Charizard.txt in Resources */,
 				1D12F7692294B71500060D75 /* Clefable.wav in Resources */,
+				1D3DFCFD22956133000C2C49 /* Victreebell.txt in Resources */,
+				1D3DFC8522956133000C2C49 /* Machoke.txt in Resources */,
 				1D3DFBD22294C6A5000C2C49 /* Bulbasaur.txt in Resources */,
 				1D12F7672294B71500060D75 /* Starmie.wav in Resources */,
 				1D12F7BE2294B71500060D75 /* Hypno.wav in Resources */,
@@ -755,7 +1355,11 @@
 				1D12F79F2294B71500060D75 /* Graveler.wav in Resources */,
 				1D12F7982294B71500060D75 /* Tauros.wav in Resources */,
 				1D12F7D32294B71500060D75 /* Muk.wav in Resources */,
+				1D3DFCCC22956133000C2C49 /* Butterfree.txt in Resources */,
+				1D3DFC7522956133000C2C49 /* Scyther.txt in Resources */,
+				1D3DFCCE22956133000C2C49 /* Tentacruel.txt in Resources */,
 				1D12F78A2294B71500060D75 /* Slowbro.wav in Resources */,
+				1D3DFC7E22956133000C2C49 /* Kingler.txt in Resources */,
 				1D12F77D2294B71500060D75 /* Kakuna.wav in Resources */,
 				1D12F7CB2294B71500060D75 /* Butterfree.wav in Resources */,
 				1D12F74B2294B71500060D75 /* Golem.wav in Resources */,
