@@ -1,5 +1,10 @@
 # Pokecoso
 
+// 22.5.19
+- Added weight
+- Added all Pokémon images
+- Searchbar now works!
+
 // 21.5.19
 - Added detailView with image
 - Added LaunchScreen
@@ -18,3 +23,4 @@ ___
 ___
 
 - Added description snippet
+
