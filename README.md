@@ -5,6 +5,10 @@
 - Added all Pokémon images
 - Searchbar now works!
 
+___
+
+- New icon
+
 // 21.5.19
 - Added detailView with image
 - Added LaunchScreen
