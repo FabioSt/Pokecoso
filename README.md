@@ -14,3 +14,7 @@ ___
 ___
 
 - Added Sounds! Now every Pokémon has a voice :)
+
+___
+
+- Added description snippet
