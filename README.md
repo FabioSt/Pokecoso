@@ -17,6 +17,8 @@ ___
 
 - New icon
 
+---
+
 // 21.5.19
 - Added detailView with image
 - Added LaunchScreen
