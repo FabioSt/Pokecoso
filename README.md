@@ -1,4 +1,12 @@
 # Pokecoso
+// 23.5.19
+- Fixed a duplication problem in the searchbar
+- Added Pokémon types
+- Now descriptions, weight and height are correct for every Pokémon
+- Tableview restyled
+
+---
+
 
 // 22.5.19
 - Added weight
