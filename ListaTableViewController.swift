@@ -26,16 +26,14 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
         listaFiltrata.removeAll(keepingCapacity: true)
         print("testocercato = \(testoCercato)")
         for x in listaPkmn {
-            for categoria in x.categoria {
-                if scope == "Tutti" || scope == categoria {
+            
                     if x.nomePkmn.lowercased().hasPrefix(testoCercato.localizedLowercase) {
                         print("trovato \(x.nomePkmn) con \(testoCercato.localizedLowercase)")
                         listaFiltrata.append(x)
                     } else {
                         print("NON trovato \(x.nomePkmn) con \(testoCercato.localizedLowercase)")
                     }
-                }
-            }
+               
             tableView.reloadData()
         }
 }
@@ -115,7 +113,8 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
             pokemon = listaPkmn[indexPath.row]
         }
         
-        //riempio la cella assegnando ad una label testuale il nome dell'alimento
+        //riempio la cella assegnando ad una label testuale il nome del pokemon
+
         cella.textLabel?.text = pokemon.nomePkmn
         cella.imageView?.image = UIImage(named: "\(pokemon.numero)")
         cella.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator

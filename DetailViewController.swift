@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 
+
 class DetailViewController: UIViewController {
     
     var numeroPokemon: Int = 0
@@ -18,6 +19,9 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var nameDetail: UILabel!
     @IBOutlet weak var descriptionText2: UITextView!
     @IBOutlet weak var pesoLabel: UILabel!
+    @IBOutlet weak var altezzaLabel: UILabel!
+    @IBOutlet weak var tipoLabel: UILabel!
+    
     
     @IBAction func btnSound(_ sender: UIButton) {
         initAudio()
@@ -41,9 +45,12 @@ class DetailViewController: UIViewController {
         
         pokemonScelto = listaPkmn[numeroPokemon - 1]
         pesoLabel.text = "Peso: " + "\(pokemonScelto?.peso ?? "loremipsum")"
+        altezzaLabel.text = "Altezza: " + "\(pokemonScelto?.altezza ?? "loremipsum")"
+        tipoLabel.text = "Tipo: " + "\(pokemonScelto?.categoria ?? ["loremipsum"])"
         nameDetail.text = pokemonScelto?.nomePkmn
         self.title = pokemonScelto?.nomePkmn
         bigImageView.image = UIImage(named: "\(pokemonScelto?.nomePkmn ?? "loremipsum")")
+        
         
         if let path = Bundle.main.path(forResource: "\(pokemonScelto?.nomePkmn ?? "loremipsum")", ofType: "txt") {
             do {
@@ -55,6 +62,7 @@ class DetailViewController: UIViewController {
             }
         }
     }
+    
     
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
