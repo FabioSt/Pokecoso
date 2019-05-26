@@ -72,7 +72,7 @@ struct Pokemon {
     Pokemon(nomePkmn: "Persian", categoria: ["Normale"], numero: 53, peso: "32,0 kg", altezza: "1,0 m"),
     Pokemon(nomePkmn: "Psyduck", categoria: ["Acqua"], numero: 54, peso: "19,6 kg", altezza: "0,8 m"),
     Pokemon(nomePkmn: "Golduck", categoria: ["Acqua"], numero: 55, peso: "76,6 kg", altezza: "1,7 m"),
-    Pokemon(nomePkmn: "Monkey", categoria: ["Lotta"], numero: 56, peso: "28,0 kg", altezza: "0,5 m"),
+    Pokemon(nomePkmn: "Mankey", categoria: ["Lotta"], numero: 56, peso: "28,0 kg", altezza: "0,5 m"),
     Pokemon(nomePkmn: "Primeape", categoria: ["Lotta"], numero: 57, peso: "32,0 kg", altezza: "1,0 m"),
     Pokemon(nomePkmn: "Growlithe", categoria: ["Fuoco"], numero: 58, peso: "19,0 kg", altezza: "0,7 m"),
     Pokemon(nomePkmn: "Arcanine", categoria: ["Fuoco"], numero: 59, peso: "155,0 kg", altezza: "1,9 m"),

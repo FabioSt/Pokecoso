@@ -15,7 +15,9 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
         self.filtraContenuti(testoCercato: searchController.searchBar.text!, scope: "Tutti")
     }
     
-
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     
     var resultSearchController: UISearchController?
     var listaFiltrata = [Pokemon]()

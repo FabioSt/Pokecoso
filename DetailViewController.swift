@@ -23,6 +23,11 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var tipoLabel: UILabel!
     
     
+    @IBAction func arButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "arSegue", sender: self)
+    }
+    
+    
     @IBAction func btnSound(_ sender: UIButton) {
         initAudio()
     }

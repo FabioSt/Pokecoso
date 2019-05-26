@@ -20,9 +20,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <searchBar key="tableHeaderView" opaque="NO" contentMode="redraw" searchBarStyle="minimal" placeholder="Cerca Pokémon..." showsSearchResultsButton="YES" id="gy0-Ij-k5P">
+                        <searchBar key="tableHeaderView" opaque="NO" contentMode="redraw" placeholder="Cerca Pokémon..." showsSearchResultsButton="YES" translucent="NO" id="gy0-Ij-k5P">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="barTintColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
                                 <outlet property="delegate" destination="lz6-aJ-UaA" id="8Zr-Vj-iCD"/>
@@ -46,6 +47,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Pokédex" id="nVd-mD-JfB"/>
                     <connections>
+                        <outlet property="searchBar" destination="gy0-Ij-k5P" id="LHq-YJ-s0O"/>
                         <outlet property="searchDisplayController" destination="qhp-wL-YDB" id="R6w-gK-2Sr"/>
                         <segue destination="D6J-eN-BOr" kind="show" identifier="dettaglioPokemonSegue" id="Bwa-DK-1ek"/>
                     </connections>
@@ -54,7 +56,6 @@
                 <searchDisplayController id="qhp-wL-YDB">
                     <connections>
                         <outlet property="delegate" destination="lz6-aJ-UaA" id="JgV-fx-Eg2"/>
-                        <outlet property="searchBar" destination="gy0-Ij-k5P" id="EIh-DH-W9j"/>
                         <outlet property="searchContentsController" destination="lz6-aJ-UaA" id="6bO-Ko-Ngv"/>
                         <outlet property="searchResultsDataSource" destination="lz6-aJ-UaA" id="cmp-gJ-pZa"/>
                         <outlet property="searchResultsDelegate" destination="lz6-aJ-UaA" id="9Rj-3w-kPZ"/>
@@ -121,16 +122,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOO-tb-z30">
+                                <rect key="frame" x="20" y="782" width="374" height="30"/>
+                                <state key="normal" title="BOTTONE">
+                                    <color key="titleColor" red="1" green="0.29411764709999999" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="arButton:" destination="D6J-eN-BOr" eventType="touchUpInside" id="Qfk-hb-Vxz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
                             <constraint firstItem="uf7-pt-jm4" firstAttribute="bottom" secondItem="tcw-SC-Ihi" secondAttribute="bottom" constant="359" id="7dq-zy-ep9"/>
                             <constraint firstItem="tcw-SC-Ihi" firstAttribute="top" secondItem="XGx-9G-njW" secondAttribute="bottom" constant="20" id="A80-eb-uHp"/>
+                            <constraint firstItem="ZOO-tb-z30" firstAttribute="leading" secondItem="uf7-pt-jm4" secondAttribute="leading" constant="20" id="Lnv-la-Pia"/>
                             <constraint firstItem="uf7-pt-jm4" firstAttribute="trailing" secondItem="5WR-in-AL2" secondAttribute="trailing" constant="45" id="Mo7-oM-FRA"/>
                             <constraint firstItem="5WR-in-AL2" firstAttribute="leading" secondItem="uf7-pt-jm4" secondAttribute="leading" constant="45" id="PEp-Ik-697"/>
+                            <constraint firstItem="ZOO-tb-z30" firstAttribute="top" secondItem="5WR-in-AL2" secondAttribute="bottom" constant="20" id="PSo-db-u24"/>
                             <constraint firstItem="tcw-SC-Ihi" firstAttribute="leading" secondItem="uf7-pt-jm4" secondAttribute="leading" constant="45" id="Pip-vT-puB"/>
                             <constraint firstItem="XGx-9G-njW" firstAttribute="top" secondItem="uf7-pt-jm4" secondAttribute="top" constant="35" id="aW9-gE-Vgx"/>
+                            <constraint firstItem="uf7-pt-jm4" firstAttribute="trailing" secondItem="ZOO-tb-z30" secondAttribute="trailing" constant="20" id="cxr-E6-lAF"/>
                             <constraint firstItem="uf7-pt-jm4" firstAttribute="bottom" secondItem="5WR-in-AL2" secondAttribute="bottom" constant="100" id="iSQ-AJ-nXr"/>
                             <constraint firstItem="XGx-9G-njW" firstAttribute="leading" secondItem="uf7-pt-jm4" secondAttribute="leading" constant="45" id="jdW-C2-AVT"/>
                             <constraint firstItem="uf7-pt-jm4" firstAttribute="trailing" secondItem="XGx-9G-njW" secondAttribute="trailing" constant="45" id="oIu-fG-RNY"/>
@@ -145,11 +158,41 @@
                         <outlet property="nameDetail" destination="tcw-SC-Ihi" id="dMF-zq-5Nh"/>
                         <outlet property="pesoLabel" destination="MFf-hg-UeH" id="qlC-UI-7TK"/>
                         <outlet property="tipoLabel" destination="Ryj-Zk-Vy5" id="acn-XI-Opj"/>
+                        <segue destination="jph-Qa-s2y" kind="show" identifier="arSegue" id="4Sh-Th-qRp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iH-kJ-kP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1321.7391304347827" y="107.8125"/>
+        </scene>
+        <!--Ar View Controller-->
+        <scene sceneID="ZE4-tc-nLP">
+            <objects>
+                <viewController id="jph-Qa-s2y" customClass="ArViewController" customModule="Pokecoso3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E91-9u-1BO" customClass="SceneView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hI-o0-4Eq">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0hI-o0-4Eq" firstAttribute="leading" secondItem="tDl-0c-WNJ" secondAttribute="leading" id="H7j-Vy-3L3"/>
+                            <constraint firstItem="0hI-o0-4Eq" firstAttribute="trailing" secondItem="tDl-0c-WNJ" secondAttribute="trailing" id="SAF-eD-Te1"/>
+                            <constraint firstItem="0hI-o0-4Eq" firstAttribute="top" secondItem="E91-9u-1BO" secondAttribute="topMargin" id="SzV-RR-8Ja"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="0hI-o0-4Eq" secondAttribute="bottom" id="loy-vp-ONO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tDl-0c-WNJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="0hI-o0-4Eq" id="pZr-Ag-s1w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5m-2Q-IaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2118.840579710145" y="107.8125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oW8-DA-CvA">
