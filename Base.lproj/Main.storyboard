@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <searchBar key="tableHeaderView" opaque="NO" contentMode="redraw" placeholder="Cerca Pokémon..." showsSearchResultsButton="YES" translucent="NO" id="gy0-Ij-k5P">
+                        <searchBar key="tableHeaderView" opaque="NO" contentMode="redraw" text="" placeholder="Cerca Pokémon..." showsSearchResultsButton="YES" translucent="NO" id="gy0-Ij-k5P">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <color key="barTintColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,7 +45,9 @@
                             <outlet property="delegate" destination="lz6-aJ-UaA" id="L7T-m8-JWp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Pokédex" id="nVd-mD-JfB"/>
+                    <navigationItem key="navigationItem" title="Pokédex" id="nVd-mD-JfB">
+                        <barButtonItem key="backBarButtonItem" title="Indietro" id="qcV-m8-DUN"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="searchBar" destination="gy0-Ij-k5P" id="LHq-YJ-s0O"/>
                         <outlet property="searchDisplayController" destination="qhp-wL-YDB" id="R6w-gK-2Sr"/>

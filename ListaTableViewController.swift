@@ -49,7 +49,11 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.barTintColor = UIColor(red: 231/255, green: 76/255, blue: 60/255, alpha: 1.0)
+        navigationController?.navigationBar.tintColor = UIColor.white
         
+        definesPresentationContext = true
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -60,8 +64,10 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
         self.tableView.reloadData()
         
         self.resultSearchController = ({
+            
             // creo un oggetto di tipo UISearchController
             let controller = UISearchController(searchResultsController: nil)
+            controller.searchBar.setValue("Annulla", forKey:"_cancelButtonText")
             // rimuove la tableView di sottofondo in modo da poter successivamente visualizzare gli elementi cercati
             controller.dimsBackgroundDuringPresentation = false
             
@@ -73,6 +79,11 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
             
             // attacco alla parte superiore della TableView la searchBar
             self.tableView.tableHeaderView = controller.searchBar
+            
+            controller.searchBar.searchBarStyle = .minimal
+            controller.searchBar.placeholder = "Cerca il Pokémon..."
+            
+            
             
             // restituisco il controller creato
             return controller
@@ -147,12 +158,15 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
             if self.resultSearchController?.isActive ?? true {
                 let numeroPokemon = self.listaFiltrata[numeroRiga].numero
                 pokemonDetailViewController.numeroPokemon = numeroPokemon
+                
             } else {
                 let numeroPokemon = listaPkmn[numeroRiga].numero
                 pokemonDetailViewController.numeroPokemon = numeroPokemon
             }
         }
     }
+    
+
     
     /*
     // Override to support conditional editing of the table view.
