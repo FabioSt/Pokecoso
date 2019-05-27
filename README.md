@@ -1,4 +1,12 @@
 # Pokécoso
+// 26.5.19
+- Added ARmode with Pikachu (actually, a dead one)
+- Translated navigation to Italian
+- Restyled Searchbar
+- Searchbar now automatically hides when a result is clicked
+
+---
+
 // 23.5.19
 - Fixed a duplication problem in the searchbar
 - Added Pokémon types
