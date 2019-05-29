@@ -21,6 +21,7 @@
 // 27.5.19
 - Restyled status bar
 
+---
 
 // 23.5.19
 - Fixed a duplication problem in the searchbar
