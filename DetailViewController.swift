@@ -12,6 +12,7 @@ import AVFoundation
 
 class DetailViewController: UIViewController {
     
+    
     var numeroPokemon: Int = 0
     var pokemonScelto: Pokemon?
     var musicPlayer : AVAudioPlayer!
@@ -21,6 +22,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var pesoLabel: UILabel!
     @IBOutlet weak var altezzaLabel: UILabel!
     @IBOutlet weak var tipoLabel: UILabel!
+    @IBOutlet weak var typeOne: UIImageView!
+    @IBOutlet weak var typeTwo: UIImageView!
     
     
     @IBAction func arButton(_ sender: UIButton) {
@@ -31,6 +34,8 @@ class DetailViewController: UIViewController {
     @IBAction func btnSound(_ sender: UIButton) {
         initAudio()
     }
+    
+    
     
     func initAudio() {
         let path = Bundle.main.path(forResource: "\(pokemonScelto?.nomePkmn ?? "loremipsum")", ofType: "wav")
@@ -45,13 +50,32 @@ class DetailViewController: UIViewController {
         }
     }
     
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        _ = tapGestureRecognizer.view as! UIImageView
+        
+        initAudio()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        bigImageView.isUserInteractionEnabled = true
+        bigImageView.addGestureRecognizer(tapGestureRecognizer)
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "3D", style: .done, target: self, action: #selector(arButton))
+
         pokemonScelto = listaPkmn[numeroPokemon - 1]
         pesoLabel.text = "Peso: " + "\(pokemonScelto?.peso ?? "loremipsum")"
         altezzaLabel.text = "Altezza: " + "\(pokemonScelto?.altezza ?? "loremipsum")"
-        tipoLabel.text = "Tipo: " + "\(pokemonScelto?.categoria ?? ["loremipsum"])"
+        tipoLabel.text = "Tipo: "
+        typeOne.image = UIImage(named: "\(pokemonScelto?.categoria[0] ?? "loremipsum")")
+        if pokemonScelto?.categoria[1] != "" {
+            typeTwo.image = UIImage(named: "\(pokemonScelto?.categoria[1] ?? "loremipsum")")
+        } else {
+            print("noth")
+        }
         nameDetail.text = pokemonScelto?.nomePkmn
         self.title = pokemonScelto?.nomePkmn
         bigImageView.image = UIImage(named: "\(pokemonScelto?.nomePkmn ?? "loremipsum")")

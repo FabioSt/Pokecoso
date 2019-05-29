@@ -49,6 +49,8 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+     
+        
         navigationController?.navigationBar.barTintColor = UIColor(red: 231/255, green: 76/255, blue: 60/255, alpha: 1.0)
         navigationController?.navigationBar.tintColor = UIColor.white
         
@@ -81,7 +83,7 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
             self.tableView.tableHeaderView = controller.searchBar
             
             controller.searchBar.searchBarStyle = .minimal
-            controller.searchBar.placeholder = "Cerca il Pokémon..."
+            controller.searchBar.placeholder = "Cerca Pokémon..."
             
             
             
@@ -126,10 +128,22 @@ class ListaTableViewController: UITableViewController, UISearchResultsUpdating {
             pokemon = listaPkmn[indexPath.row]
         }
         
+        
+        
         //riempio la cella assegnando ad una label testuale il nome del pokemon
 
+        
         cella.textLabel?.text = pokemon.nomePkmn
         cella.imageView?.image = UIImage(named: "\(pokemon.numero)")
+        
+        let itemSize = CGSize(width:42.0, height:42.0)
+        UIGraphicsBeginImageContextWithOptions(itemSize, false, 0.0)
+        let imageRect = CGRect(x:0.0, y:0.0, width:itemSize.width, height:itemSize.height)
+        cella.imageView?.image!.draw(in:imageRect)
+        cella.imageView?.image! = UIGraphicsGetImageFromCurrentImageContext()!
+        cella.textLabel?.font = UIFont.init(name: "Helvetica", size: 19)
+        UIGraphicsEndImageContext()
+        
         cella.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         return cella
     }

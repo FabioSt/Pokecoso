@@ -165,6 +165,24 @@
 		1D12F7DC2294B71500060D75 /* Gyarados.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7452294B71400060D75 /* Gyarados.wav */; };
 		1D12F7DD2294B71500060D75 /* Weezing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7462294B71500060D75 /* Weezing.wav */; };
 		1D12F7DE2294B71500060D75 /* Flareon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1D12F7472294B71500060D75 /* Flareon.wav */; };
+		1D187342229E894A009AB422 /* model-pika.dae in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C859229E86DB00595049 /* model-pika.dae */; };
+		1D187343229E894A009AB422 /* model-pika.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C85A229E86DB00595049 /* model-pika.fbx */; };
+		1D187344229E894A009AB422 /* model-pika.smd in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C858229E86DB00595049 /* model-pika.smd */; };
+		1D187346229E89D4009AB422 /* pm0025_00_Mouth1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C849229E86DB00595049 /* pm0025_00_Mouth1.png */; };
+		1D187347229E89D4009AB422 /* pm0025_00_BodyBNor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C84A229E86DB00595049 /* pm0025_00_BodyBNor.png */; };
+		1D187348229E89D4009AB422 /* pm0025_00_BodyA1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C84B229E86DB00595049 /* pm0025_00_BodyA1.png */; };
+		1D187349229E89D4009AB422 /* pm0025_00_MouthNor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C84C229E86DB00595049 /* pm0025_00_MouthNor.png */; };
+		1D18734A229E89D4009AB422 /* pm0025_00_BodyANor_Alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C84D229E86DB00595049 /* pm0025_00_BodyANor_Alpha.png */; };
+		1D18734B229E89D4009AB422 /* pm0025_00_BodyB1Id.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C84E229E86DB00595049 /* pm0025_00_BodyB1Id.png */; };
+		1D18734C229E89D4009AB422 /* pm0025_00_BodyBInc.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C84F229E86DB00595049 /* pm0025_00_BodyBInc.png */; };
+		1D18734D229E89D4009AB422 /* pm0025_00_Mouth1Id.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C850229E86DB00595049 /* pm0025_00_Mouth1Id.png */; };
+		1D18734E229E89D4009AB422 /* pm0025_00_BodyANor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C851229E86DB00595049 /* pm0025_00_BodyANor.png */; };
+		1D18734F229E89D4009AB422 /* pm0025_00_Eye1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C852229E86DB00595049 /* pm0025_00_Eye1.png */; };
+		1D187350229E89D4009AB422 /* pm0025_00_EyeNor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C853229E86DB00595049 /* pm0025_00_EyeNor.png */; };
+		1D187351229E89D4009AB422 /* pm0025_00_BodyB1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C854229E86DB00595049 /* pm0025_00_BodyB1.png */; };
+		1D187352229E89D4009AB422 /* pm0025_00_Eye1Id.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C855229E86DB00595049 /* pm0025_00_Eye1Id.png */; };
+		1D187353229E89D4009AB422 /* pm0025_00_BodyBNor_Alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C856229E86DB00595049 /* pm0025_00_BodyBNor_Alpha.png */; };
+		1D187354229E89D4009AB422 /* pm0025_00_BodyA1Id.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D66C857229E86DB00595049 /* pm0025_00_BodyA1Id.png */; };
 		1D3DFBCF2294B99D000C2C49 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBCE2294B99D000C2C49 /* Default-568h@2x.png */; };
 		1D3DFBD22294C6A5000C2C49 /* Bulbasaur.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD12294C6A5000C2C49 /* Bulbasaur.txt */; };
 		1D3DFC6A22956133000C2C49 /* Machop.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFBD322956126000C2C49 /* Machop.txt */; };
@@ -320,13 +338,6 @@
 		1D3DFD0A229AC29F000C2C49 /* ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3DFD09229AC29F000C2C49 /* ArViewController.swift */; };
 		1D3DFD10229AC60C000C2C49 /* Bulbasaur.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD0F229AC60C000C2C49 /* Bulbasaur.txt */; };
 		1D3DFD12229AC7D1000C2C49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD11229AC7D1000C2C49 /* Info.plist */; };
-		1D3DFD14229AC933000C2C49 /* pikachu.dae in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD13229AC933000C2C49 /* pikachu.dae */; };
-		1D3DFD1B229AC9FF000C2C49 /* PikachuHohoDh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD15229AC9FF000C2C49 /* PikachuHohoDh.png */; };
-		1D3DFD1C229AC9FF000C2C49 /* PikachuMouthDh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD16229AC9FF000C2C49 /* PikachuMouthDh.png */; };
-		1D3DFD1D229AC9FF000C2C49 /* Pikachu.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD17229AC9FF000C2C49 /* Pikachu.mtl */; };
-		1D3DFD1E229AC9FF000C2C49 /* PikachuDh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD18229AC9FF000C2C49 /* PikachuDh.png */; };
-		1D3DFD1F229AC9FF000C2C49 /* PikachuEyeDh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD19229AC9FF000C2C49 /* PikachuEyeDh.png */; };
-		1D3DFD20229AC9FF000C2C49 /* PikachuSpecularDh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3DFD1A229AC9FF000C2C49 /* PikachuSpecularDh.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -644,13 +655,24 @@
 		1D3DFD09229AC29F000C2C49 /* ArViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArViewController.swift; sourceTree = "<group>"; };
 		1D3DFD0F229AC60C000C2C49 /* Bulbasaur.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Bulbasaur.txt; path = ../Bulbasaur.txt; sourceTree = "<group>"; };
 		1D3DFD11229AC7D1000C2C49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pokecoso3/Info.plist; sourceTree = "<group>"; };
-		1D3DFD13229AC933000C2C49 /* pikachu.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = pikachu.dae; sourceTree = "<group>"; };
-		1D3DFD15229AC9FF000C2C49 /* PikachuHohoDh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PikachuHohoDh.png; sourceTree = "<group>"; };
-		1D3DFD16229AC9FF000C2C49 /* PikachuMouthDh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PikachuMouthDh.png; sourceTree = "<group>"; };
-		1D3DFD17229AC9FF000C2C49 /* Pikachu.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pikachu.mtl; sourceTree = "<group>"; };
-		1D3DFD18229AC9FF000C2C49 /* PikachuDh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PikachuDh.png; sourceTree = "<group>"; };
-		1D3DFD19229AC9FF000C2C49 /* PikachuEyeDh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PikachuEyeDh.png; sourceTree = "<group>"; };
-		1D3DFD1A229AC9FF000C2C49 /* PikachuSpecularDh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PikachuSpecularDh.png; sourceTree = "<group>"; };
+		1D66C849229E86DB00595049 /* pm0025_00_Mouth1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_Mouth1.png; sourceTree = "<group>"; };
+		1D66C84A229E86DB00595049 /* pm0025_00_BodyBNor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyBNor.png; sourceTree = "<group>"; };
+		1D66C84B229E86DB00595049 /* pm0025_00_BodyA1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyA1.png; sourceTree = "<group>"; };
+		1D66C84C229E86DB00595049 /* pm0025_00_MouthNor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_MouthNor.png; sourceTree = "<group>"; };
+		1D66C84D229E86DB00595049 /* pm0025_00_BodyANor_Alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyANor_Alpha.png; sourceTree = "<group>"; };
+		1D66C84E229E86DB00595049 /* pm0025_00_BodyB1Id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyB1Id.png; sourceTree = "<group>"; };
+		1D66C84F229E86DB00595049 /* pm0025_00_BodyBInc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyBInc.png; sourceTree = "<group>"; };
+		1D66C850229E86DB00595049 /* pm0025_00_Mouth1Id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_Mouth1Id.png; sourceTree = "<group>"; };
+		1D66C851229E86DB00595049 /* pm0025_00_BodyANor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyANor.png; sourceTree = "<group>"; };
+		1D66C852229E86DB00595049 /* pm0025_00_Eye1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_Eye1.png; sourceTree = "<group>"; };
+		1D66C853229E86DB00595049 /* pm0025_00_EyeNor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_EyeNor.png; sourceTree = "<group>"; };
+		1D66C854229E86DB00595049 /* pm0025_00_BodyB1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyB1.png; sourceTree = "<group>"; };
+		1D66C855229E86DB00595049 /* pm0025_00_Eye1Id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_Eye1Id.png; sourceTree = "<group>"; };
+		1D66C856229E86DB00595049 /* pm0025_00_BodyBNor_Alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyBNor_Alpha.png; sourceTree = "<group>"; };
+		1D66C857229E86DB00595049 /* pm0025_00_BodyA1Id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0025_00_BodyA1Id.png; sourceTree = "<group>"; };
+		1D66C858229E86DB00595049 /* model-pika.smd */ = {isa = PBXFileReference; lastKnownFileType = text; path = "model-pika.smd"; sourceTree = "<group>"; };
+		1D66C859229E86DB00595049 /* model-pika.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = "model-pika.dae"; sourceTree = "<group>"; };
+		1D66C85A229E86DB00595049 /* model-pika.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "model-pika.fbx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -858,6 +880,31 @@
 			path = Audio;
 			sourceTree = "<group>";
 		};
+		1D187345229E89A7009AB422 /* pikachu */ = {
+			isa = PBXGroup;
+			children = (
+				1D66C859229E86DB00595049 /* model-pika.dae */,
+				1D66C849229E86DB00595049 /* pm0025_00_Mouth1.png */,
+				1D66C84A229E86DB00595049 /* pm0025_00_BodyBNor.png */,
+				1D66C84B229E86DB00595049 /* pm0025_00_BodyA1.png */,
+				1D66C84C229E86DB00595049 /* pm0025_00_MouthNor.png */,
+				1D66C84D229E86DB00595049 /* pm0025_00_BodyANor_Alpha.png */,
+				1D66C84E229E86DB00595049 /* pm0025_00_BodyB1Id.png */,
+				1D66C84F229E86DB00595049 /* pm0025_00_BodyBInc.png */,
+				1D66C850229E86DB00595049 /* pm0025_00_Mouth1Id.png */,
+				1D66C851229E86DB00595049 /* pm0025_00_BodyANor.png */,
+				1D66C852229E86DB00595049 /* pm0025_00_Eye1.png */,
+				1D66C853229E86DB00595049 /* pm0025_00_EyeNor.png */,
+				1D66C854229E86DB00595049 /* pm0025_00_BodyB1.png */,
+				1D66C855229E86DB00595049 /* pm0025_00_Eye1Id.png */,
+				1D66C856229E86DB00595049 /* pm0025_00_BodyBNor_Alpha.png */,
+				1D66C857229E86DB00595049 /* pm0025_00_BodyA1Id.png */,
+				1D66C85A229E86DB00595049 /* model-pika.fbx */,
+				1D66C858229E86DB00595049 /* model-pika.smd */,
+			);
+			path = pikachu;
+			sourceTree = "<group>";
+		};
 		1D3DFBD02294C688000C2C49 /* Descriptions */ = {
 			isa = PBXGroup;
 			children = (
@@ -1020,13 +1067,7 @@
 		1D3DFD21229ACAD1000C2C49 /* 3D */ = {
 			isa = PBXGroup;
 			children = (
-				1D3DFD13229AC933000C2C49 /* pikachu.dae */,
-				1D3DFD17229AC9FF000C2C49 /* Pikachu.mtl */,
-				1D3DFD18229AC9FF000C2C49 /* PikachuDh.png */,
-				1D3DFD19229AC9FF000C2C49 /* PikachuEyeDh.png */,
-				1D3DFD15229AC9FF000C2C49 /* PikachuHohoDh.png */,
-				1D3DFD16229AC9FF000C2C49 /* PikachuMouthDh.png */,
-				1D3DFD1A229AC9FF000C2C49 /* PikachuSpecularDh.png */,
+				1D187345229E89A7009AB422 /* pikachu */,
 			);
 			path = 3D;
 			sourceTree = "<group>";
@@ -1089,6 +1130,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D187346229E89D4009AB422 /* pm0025_00_Mouth1.png in Resources */,
+				1D187347229E89D4009AB422 /* pm0025_00_BodyBNor.png in Resources */,
+				1D187348229E89D4009AB422 /* pm0025_00_BodyA1.png in Resources */,
+				1D187349229E89D4009AB422 /* pm0025_00_MouthNor.png in Resources */,
+				1D18734A229E89D4009AB422 /* pm0025_00_BodyANor_Alpha.png in Resources */,
+				1D18734B229E89D4009AB422 /* pm0025_00_BodyB1Id.png in Resources */,
+				1D18734C229E89D4009AB422 /* pm0025_00_BodyBInc.png in Resources */,
+				1D18734D229E89D4009AB422 /* pm0025_00_Mouth1Id.png in Resources */,
+				1D18734E229E89D4009AB422 /* pm0025_00_BodyANor.png in Resources */,
+				1D18734F229E89D4009AB422 /* pm0025_00_Eye1.png in Resources */,
+				1D187350229E89D4009AB422 /* pm0025_00_EyeNor.png in Resources */,
+				1D187351229E89D4009AB422 /* pm0025_00_BodyB1.png in Resources */,
+				1D187352229E89D4009AB422 /* pm0025_00_Eye1Id.png in Resources */,
+				1D187353229E89D4009AB422 /* pm0025_00_BodyBNor_Alpha.png in Resources */,
+				1D187354229E89D4009AB422 /* pm0025_00_BodyA1Id.png in Resources */,
+				1D187342229E894A009AB422 /* model-pika.dae in Resources */,
+				1D187343229E894A009AB422 /* model-pika.fbx in Resources */,
+				1D187344229E894A009AB422 /* model-pika.smd in Resources */,
 				1D3DFC7A22956133000C2C49 /* Caterpie.txt in Resources */,
 				1D12F7922294B71500060D75 /* Paras.wav in Resources */,
 				1D3DFCBA22956133000C2C49 /* Vaporeon.txt in Resources */,
@@ -1097,7 +1156,6 @@
 				1D12F7492294B71500060D75 /* Magmar.wav in Resources */,
 				1D3DFCA522956133000C2C49 /* Parasect.txt in Resources */,
 				1D12F77B2294B71500060D75 /* Omastar.wav in Resources */,
-				1D3DFD1E229AC9FF000C2C49 /* PikachuDh.png in Resources */,
 				1D3DFCC222956133000C2C49 /* Graveler.txt in Resources */,
 				1D12F7C52294B71500060D75 /* Snorlax.wav in Resources */,
 				1D3DFCD422956133000C2C49 /* Charmeleon.txt in Resources */,
@@ -1145,7 +1203,6 @@
 				1D12F7652294B71500060D75 /* Rhydon.wav in Resources */,
 				1D3DFCD922956133000C2C49 /* Metapod.txt in Resources */,
 				1D3DFC9822956133000C2C49 /* Seaking.txt in Resources */,
-				1D3DFD1C229AC9FF000C2C49 /* PikachuMouthDh.png in Resources */,
 				1D12F7992294B71500060D75 /* Dratini.wav in Resources */,
 				1D12F7532294B71500060D75 /* Exeggutor.wav in Resources */,
 				1D12F6A32292C12B00060D75 /* LaunchScreen.storyboard in Resources */,
@@ -1174,7 +1231,6 @@
 				1D3DFCE722956133000C2C49 /* Grimer.txt in Resources */,
 				1D12F7612294B71500060D75 /* Onix.wav in Resources */,
 				1D12F79B2294B71500060D75 /* Psyduck.wav in Resources */,
-				1D3DFD1B229AC9FF000C2C49 /* PikachuHohoDh.png in Resources */,
 				1D12F7742294B71500060D75 /* Jynx.wav in Resources */,
 				1D3DFC9F22956133000C2C49 /* Psyduck.txt in Resources */,
 				1D12F75D2294B71500060D75 /* Seel.wav in Resources */,
@@ -1184,7 +1240,6 @@
 				1D12F7732294B71500060D75 /* Zubat.wav in Resources */,
 				1D12F7602294B71500060D75 /* Doduo.wav in Resources */,
 				1D3DFCEF22956133000C2C49 /* Voltorb.txt in Resources */,
-				1D3DFD1F229AC9FF000C2C49 /* PikachuEyeDh.png in Resources */,
 				1D3DFCDF22956133000C2C49 /* Hypno.txt in Resources */,
 				1D12F7552294B71500060D75 /* Charmeleon.wav in Resources */,
 				1D3DFC7722956133000C2C49 /* Mr.Mime.txt in Resources */,
@@ -1249,7 +1304,6 @@
 				1D12F7D62294B71500060D75 /* Fearow.wav in Resources */,
 				1D12F7D52294B71500060D75 /* Growlithe.wav in Resources */,
 				1D3DFC7B22956133000C2C49 /* Mewtwo.txt in Resources */,
-				1D3DFD14229AC933000C2C49 /* pikachu.dae in Resources */,
 				1D3DFC7C22956133000C2C49 /* Flareon.txt in Resources */,
 				1D12F79A2294B71500060D75 /* Nidoking.wav in Resources */,
 				1D12F7D02294B71500060D75 /* Squirtle.wav in Resources */,
@@ -1322,11 +1376,9 @@
 				1D3DFCF422956133000C2C49 /* Horsea.txt in Resources */,
 				1D3DFCE122956133000C2C49 /* Meowth.txt in Resources */,
 				1D3DFCD822956133000C2C49 /* Weepinbell.txt in Resources */,
-				1D3DFD20229AC9FF000C2C49 /* PikachuSpecularDh.png in Resources */,
 				1D3DFCF922956133000C2C49 /* Krabby.txt in Resources */,
 				1D12F7972294B71500060D75 /* Abra.wav in Resources */,
 				1D3DFCC622956133000C2C49 /* Weedle.txt in Resources */,
-				1D3DFD1D229AC9FF000C2C49 /* Pikachu.mtl in Resources */,
 				1D12F7502294B71500060D75 /* Golbat.wav in Resources */,
 				1D3DFCF022956133000C2C49 /* Growlithe.txt in Resources */,
 				1D3DFCFB22956133000C2C49 /* Cloyster.txt in Resources */,

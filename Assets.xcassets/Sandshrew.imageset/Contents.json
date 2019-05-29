@@ -7,10 +7,12 @@
     },
     {
       "idiom" : "universal",
+      "filename" : "Sandshrew-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Sandshrew-2.png",
       "scale" : "3x"
     }
   ],
