@@ -1,4 +1,15 @@
 # Pokécoso
+// 30.5.19
+- EVERYTHING WORKS NOW. EVERY-THING!
+- Fully restyled App
+- Pikachu in AR is now ALIVE. And you can take a photo with him ;)
+- Click on a Pokémon image to hear its sound
+- New personalized splash image
+- Fixed the iPad layout
+- Type labels added instead of simple texts
+
+---
+
 // 26.5.19
 - Added ARmode with Pikachu (actually, a dead one)
 - Translated navigation to Italian
